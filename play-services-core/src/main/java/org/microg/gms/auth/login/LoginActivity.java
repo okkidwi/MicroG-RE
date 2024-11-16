@@ -74,6 +74,7 @@ import java.util.Objects;
 import static android.accounts.AccountManager.PACKAGE_NAME_KEY_LEGACY_NOT_VISIBLE;
 import static android.accounts.AccountManager.VISIBILITY_USER_MANAGED_VISIBLE;
 import static android.os.Build.VERSION.SDK_INT;
+import static android.os.Build.VERSION_CODES_FULL.LOLLIPOP;
 import static android.telephony.TelephonyManager.SIM_STATE_UNKNOWN;
 import static android.view.KeyEvent.KEYCODE_BACK;
 import static android.view.View.INVISIBLE;
@@ -209,8 +210,7 @@ public class LoginActivity extends AssistantActivity {
             }
             init();
         } else if (state == -1) {
-            setResult(RESULT_CANCELED);
-            finish();
+            loginCanceled();
         }
     }
 
@@ -227,18 +227,24 @@ public class LoginActivity extends AssistantActivity {
             }
             init();
         } else if (state == -1) {
-            setResult(RESULT_CANCELED);
-            finish();
+            loginCanceled();
         }
+    }
+
+    public void loginCanceled() {
+        Log.d(TAG, "loginCanceled: ");
+        setResult(RESULT_CANCELED);
+        if (response != null) {
+            response.onError(AccountManager.ERROR_CODE_CANCELED, "Canceled");
+        }
+        if (SDK_INT >= LOLLIPOP) { finishAndRemoveTask(); } else finish();
     }
 
     /** @noinspection deprecation*/
     @Override
     public void onBackPressed() {
         super.onBackPressed();
-        if(response != null){
-            response.onError(AccountManager.ERROR_CODE_CANCELED, "Canceled");
-        }
+        loginCanceled();
     }
 
     private void init() {
@@ -431,7 +437,7 @@ public class LoginActivity extends AssistantActivity {
                         }
                         checkin(true);
                         returnSuccessResponse(account);
-                        finish();
+                        if (SDK_INT >= LOLLIPOP) { finishAndRemoveTask(); } else finish();
                     }
 
                     @Override
@@ -688,7 +694,7 @@ public class LoginActivity extends AssistantActivity {
         @JavascriptInterface
         public final void skipLogin() {
             Log.d(TAG, "JSBridge: skipLogin");
-            finish();
+            loginCanceled();
         }
 
         @JavascriptInterface
