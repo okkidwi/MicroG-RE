@@ -46,7 +46,7 @@ Dit kan enkele minuten duren"</string>
     <string name="dialog_message_remove_account">"Verbinding met Google via Tor-netwerk"</string>
     <string name="dialog_confirm_button">Pushmeldingen inschakelen</string>
     <string name="dialog_cancel_button">Geregistreerd</string>
-    <string name="snackbar_remove_account">U bent niet geregistreerd</string>
+    <string name="snackbar_remove_account">U bent niet geregistreerd %s</string>
     <string name="snackbar_undo_button">Ongedaan maken</string>
     <!--Google Cloud Messaging-->
     <string name="service_name_mcs">Standaard</string>
