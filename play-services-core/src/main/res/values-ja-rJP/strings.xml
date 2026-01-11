@@ -21,7 +21,7 @@
     <!-- %1$s is an app name, such as "YouTube" -->
     <string name="signin_confirm_title">%1$sにサインインすることを許可します</string>
     <!-- %1$s is an app name, such as "YouTube" -->
-    <string name="signin_subtext_sharing">続行するには、microG が Google アカウントの名前、メールアドレス、プロフィール画像を %1$s に共有します</string>
+    <string name="signin_subtext_sharing">続行すると、microG は Google アカウントの名前、メールアドレス、プロフィール画像を %1$s と共有します</string>
     <!--auth: buttons-->
     <!--auth: messages-->
     <string name="auth_before_connect">"Google アカウントを microG に接続します
@@ -70,13 +70,13 @@ Google アカウントに接続するには、<b>サインイン</b> ボタン�
 一部のアプリはこの操作後、再登録できない場合があります"</string>
     <string name="gcm_unregister_confirm_message">"一部のアプリは自動的に再登録されないか、手動で再登録するオプションがありません。これらのアプリは正しく動作しない場合があります。
 続行しますか？"</string>
-    <string name="gcm_unregister_after_deny_message">"プッシュ通知に登録を許可しなかったアプリがあります。将来的にプッシュメッセージを受信しないようにしますか？"</string>
+    <string name="gcm_unregister_after_deny_message">"既に登録されているアプリのプッシュ通知登録を拒否しました。今後プッシュ通知を受け取らないよう、今すぐ登録解除しますか？"</string>
     <!--gcm: register messages infos-->
     <string name="gcm_no_message_yet">メッセージを受信していません</string>
     <!-- %1$s is a date time, such as  app name, such as "Yesterday, 02:20 PM" -->
     <string name="gcm_last_message_at">最後のメッセージ: %1$s</string>
     <!-- %1$s is a date time, such as  app name, such as "Yesterday, 02:20 PM" -->
-    <string name="gcm_registered_since">登録 seitdem: %1$s</string>
+    <string name="gcm_registered_since">登録日時: %1$s</string>
     <!-- %1$s is a date time, such as  app name, such as "Yesterday, 02:20 PM" -->
     <string name="gcm_messages_counter">メッセージ: %1$d (%2$d バイト)</string>
     <!--gcm: network states-->
@@ -138,7 +138,7 @@ Google アカウントに接続するには、<b>サインイン</b> ボタン�
     <string name="self_check_resolution_overlay">ここをタップしてこの権限を許可してください。この権限は、他のアプリの上にポップアップアラートを表示するために必要です</string>
     <!--self check: system-->
     <string name="self_check_name_battery_optimizations">電池の最適化を無効化</string>
-    <string name="self_check_resolution_battery_optimizations">ここをタップして電池の最適化を無効にしてください。有効のままだと、YouTube や他の登録済みアプリからの通知を受け取れない場合があります。</string>
+    <string name="self_check_resolution_battery_optimizations">ここをタップして電池の最適化を無効にしてください。有効のままだと、YouTube や他の登録済みアプリからの通知を受け取れない場合があります</string>
     <string name="self_check_name_oem_restriction">バックグラウンド処理の制限</string>
     <string name="self_check_resolution_oem_restriction">システムがバックグラウンド処理を制限している可能性があります。ここをタップしてウェブサイト「Don’t Kill My App!」を開き、この制限を無効にする方法を確認してください</string>
     <!--self check: signature-->
@@ -156,7 +156,7 @@ Google アカウントに接続するには、<b>サインイン</b> ボタン�
     <string name="prefcat_accounts_options_title">オプション</string>
     <string name="prefcat_youtube_activity">YouTube アクティビティ</string>
     <string name="prefcat_push_apps_registered_title">登録済みアプリ</string>
-    <string name="prefcat_push_apps_unregistered_title">登録されていないアプリ</string>
+    <string name="prefcat_push_apps_unregistered_title">未登録のアプリ</string>
     <string name="prefcat_gcm_registers">登録</string>
     <string name="prefcat_push_networks_title">プッシュ通知を受信するネットワーク</string>
     <string name="prefcat_applications">アプリ</string>
@@ -190,7 +190,7 @@ Google アカウントに接続するには、<b>サインイン</b> ボタン�
     <string name="pref_gcm_enable_mcs_summary">クラウドメッセージは、修正済みアプリ用のプッシュ通知プロバイダです。デバイス登録を有効にする必要があります</string>
     <string name="pref_gcm_confirm_new_apps_title">新しいアプリの登録を確認します</string>
     <string name="pref_gcm_confirm_new_apps_summary">新しいアプリをプッシュ通知を受信するために登録する前に確認します</string>
-    <string name="pref_gcm_remove_registers">すべての登録を削除します</string>
+    <string name="pref_gcm_remove_registers">登録済みのすべてのアプリを削除します</string>
     <string name="pref_gcm_remove_registers_summary">アプリの登録に問題があるか、通知を受信できない場合にのみ使用してください</string>
     <!--preferences: privacy-->
     <string name="pref_privacy_title">プライバシー</string>
@@ -211,7 +211,7 @@ Google アカウントに接続するには、<b>サインイン</b> ボタン�
     <!--preferences: hide icon in launcher-->
     <string name="pref_hide_launcher_icon">ランチャーにアイコンを表示しません</string>
     <!--preferences: about-->
-    <string name="pref_about_title">MicroG について</string>
+    <string name="pref_about_title">MicroG RE について</string>
     <string name="pref_github_summary">ソースコードリポジトリ</string>
     <!--Permissions-->
     <string name="perm_status_broadcast_label">内部のステータスを聞き取ります</string>
@@ -222,7 +222,7 @@ Google アカウントに接続するには、<b>サインイン</b> ボタン�
     <string name="perm_extended_access_label">Google サービスへの拡張アクセス</string>
     <!--Conditions-->
     <string name="cond_gcm_bat_title">電池の最適化が有効です</string>
-    <string name="cond_gcm_bat_summary">Cloud Messaging を有効にしていますが、MicroG Services に対する電池の最適化が有効になっています。プッシュ通知を受け取るには、電池の最適化を無効にする必要があります</string>
+    <string name="cond_gcm_bat_summary">Cloud Messaging を有効にしていますが、microG Services に対する電池の最適化が有効になっています。プッシュ通知を受け取るには、電池の最適化を無効にする必要があります</string>
     <string name="cond_gcm_bat_action">無効にします</string>
     <string name="cond_perm_title">権限がありません</string>
 </resources>

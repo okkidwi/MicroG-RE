@@ -30,7 +30,7 @@
     <!--Self Check-->
     <!--self-check: permission-->
     <string name="self_check_cat_permissions">Jogosultságok</string>
-    <string name="self_check_name_permission">Jogosultság a %1$s-ra:</string>
+    <string name="self_check_name_permission">Engedély a %1$s használatára:</string>
     <string name="self_check_resolution_permission">Kattints ide a jogosultság megadásához. Nem adja meg a jogosultságot, ami lehetővé teszi a hibás működést az alkalmazásoknak</string>
     <!--Settings Preferences-->
     <!--preferences: self-check-->

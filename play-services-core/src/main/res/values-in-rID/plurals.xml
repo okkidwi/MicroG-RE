@@ -21,7 +21,7 @@
     </plurals>
     <!--Conditions-->
     <plurals name="cond_perm_summary">
-        <item quantity="other">Perizinan yang diperlukan untuk fungsi yang baik dari layanan microG tidak diberikan.</item>
+        <item quantity="other">Perizinan yang diperlukan untuk fungsi yang baik dari Layanan microG tidak diberikan.</item>
     </plurals>
     <plurals name="cond_perm_action">
         <item quantity="other">Minta perizinan yang hilang</item>

@@ -30,19 +30,19 @@ Vamos conectar a uma conta Google, use o botão <b>Entrar</b> ou use o botão <b
     <string name="auth_connecting">"Seu dispositivo está estabelecendo uma conexão com os servidores do Google para fazer login.
 
 Isso pode levar alguns segundos."</string>
-    <string name="auth_no_network_error_desc">"Você não tem conexão a internet.
+    <string name="auth_no_network_error_desc">"Você não possui conexão a internet.
 
-Isso pode ser um problema temporário, ou seu dispositivo Android pode sem conexão a internet. Tente novamente quando estiver conectado a uma rede móvel ou Wi-Fi."</string>
+Isso pode ser um problema temporário, ou seu dispositivo Android pode estar sem conexão a internet. Tente novamente quando estiver conectado a uma rede móvel ou Wi-Fi."</string>
     <string name="auth_general_error_desc">"Houve um problema na comunicação com os servidores do Google.
 
-Tente de novamente mais tarde."</string>
+Tente novamente mais tarde."</string>
     <string name="auth_finalize">"Seu dispositivo está entrando em contato com o Google para salvar informações em sua conta.
 
 Isso pode levar alguns minutos."</string>
     <!--auth: notifications-->
     <string name="auth_notification_title">Autenticação necessária</string>
     <!-- %1$s is an app name, such as "YouTube" -->
-    <string name="auth_notification_content">%1$s precisa da sua autorização para acessar sua conta do Google</string>
+    <string name="auth_notification_content">%1$s precisa da sua autorização para acessar sua conta Google</string>
     <!--Account Manager-->
     <string name="dialog_title_remove_account">Remover conta</string>
     <string name="dialog_message_remove_account">"Tem certeza de que deseja remover esta conta?
@@ -59,7 +59,7 @@ Seus dados não serão perdidos"</string>
     <string name="gcm_enable_switch">Notificações push</string>
     <!--gcm: register dialogs-->
     <string name="gcm_registered">Registrados</string>
-    <string name="gcm_unregister_app">Não registrados</string>
+    <string name="gcm_unregister_app">Revogar registro</string>
     <string name="gcm_remove_registers_dialog_title">Remover todos os registros?</string>
     <!-- %1$s is an app name, such as "YouTube"? -->
     <string name="gcm_unregister_confirm_title">Revogar registro do %1$s?</string>
@@ -76,15 +76,15 @@ Continuar?"</string>
     <!-- %1$s is a date time, such as  app name, such as "Yesterday, 02:20 PM" -->
     <string name="gcm_last_message_at">Última mensagem: %1$s</string>
     <!-- %1$s is a date time, such as  app name, such as "Yesterday, 02:20 PM" -->
-    <string name="gcm_registered_since">Registrado desde: %1$s</string>
+    <string name="gcm_registered_since">Registrado: %1$s</string>
     <!-- %1$s is a date time, such as  app name, such as "Yesterday, 02:20 PM" -->
     <string name="gcm_messages_counter">Mensagens: %1$d (%2$d bytes)</string>
     <!--gcm: network states-->
     <string name="gcm_network_state_disconnected">Desconectado</string>
     <!-- %1$s is a date time, such as  app name, such as "Yesterday, 02:20 PM" -->
-    <string name="gcm_network_state_connected">Conectado desde %1$s</string>
+    <string name="gcm_network_state_connected">Conectado: %1$s</string>
     <!--gcm: network types entry's-->
-    <string name="network_type_mobile">Rede móvel</string>
+    <string name="network_type_mobile">Redes móveis</string>
     <string name="network_type_wifi">Wi-Fi</string>
     <string name="network_type_roaming">Roaming</string>
     <string name="network_type_other">Outras redes</string>
@@ -138,7 +138,7 @@ Continuar?"</string>
     <string name="self_check_resolution_overlay">Toque aqui para conceder esta permissão. Esta permissão é necessária para exibir alertas pop-up sobre outros aplicativos</string>
     <!--self check: system-->
     <string name="self_check_name_battery_optimizations">Otimizações de bateria desativadas</string>
-    <string name="self_check_resolution_battery_optimizations">Toque aqui para desabilitar as otimizações da bateria. Se não desabilitadas, você pode ter problemas ao receber notificações do YouTube e de outros aplicativos registrados</string>
+    <string name="self_check_resolution_battery_optimizations">Toque aqui para desativar as otimizações da bateria. Se não desativadas, você pode ter problemas ao receber notificações do YouTube e de outros aplicativos registrados</string>
     <string name="self_check_name_oem_restriction">Restrições de processo em segundo plano</string>
     <string name="self_check_resolution_oem_restriction">Seu sistema pode restringir processos em segundo plano. Toque aqui para abrir o site Don’t Kill My App! e aprender como desativar essas restrições</string>
     <!--self check: signature-->
@@ -167,7 +167,7 @@ Continuar?"</string>
     <!--preferences: account manager-->
     <string name="pref_account_title">Contas</string>
     <string name="pref_account_summary">Entrar em uma nova conta do Google</string>
-    <string name="pref_accounts_summary">Adicione e gerencie contas do Google</string>
+    <string name="pref_accounts_summary">Adicionar e gerenciar contas do Google</string>
     <string name="pref_accounts_manage_accounts_title">Gerenciar contas</string>
     <string name="pref_accounts_manage_accounts_summary">Abrir gerenciador de contas do dispositivo</string>
     <string name="pref_manage_all_history">Gerenciar todo o histórico</string>
@@ -179,14 +179,14 @@ Continuar?"</string>
     <string name="pref_device_registration_import_custom_profile_title">Importar perfil personalizado</string>
     <string name="pref_device_registration_import_custom_profile_summary">Importar perfil do dispositivo de um arquivo</string>
     <string name="pref_device_registration_serial_title">Número de série</string>
-    <string name="pref_device_registration_android_id">ID do Android</string>
+    <string name="pref_device_registration_android_id">Android ID</string>
     <string name="pref_checkin_enable_summary">Registre seu dispositivo nos serviços do Google e crie um identificador exclusivo. O microG remove bits de identificação que não sejam o nome da conta Google dos dados de registro</string>
     <!--preferences: cloud messaging-->
     <string name="prefcat_push_apps_title">Aplicativos usando notificações push</string>
     <string name="pref_push_app_allow_register_title">Permitir registro</string>
     <string name="pref_push_app_allow_register_summary">Permitir que o aplicativo se registre para notificações push</string>
-    <string name="pref_push_app_wake_for_delivery_title">Inicie o aplicativo na mensagem push</string>
-    <string name="pref_push_app_wake_for_delivery_summary">Inicie o aplicativo em segundo plano para receber as mensagens push recebidas</string>
+    <string name="pref_push_app_wake_for_delivery_title">Iniciar o aplicativo na mensagem push</string>
+    <string name="pref_push_app_wake_for_delivery_summary">Inicie o aplicativo em segundo plano para receber as mensagens push enviadas</string>
     <string name="pref_gcm_enable_mcs_summary">Mensagens na nuvem é um provedor de notificações push usado por aplicativos registrados. Para utilizar você deve ativar o registro do dispositivo</string>
     <string name="pref_gcm_confirm_new_apps_title">Confirmar novos aplicativos</string>
     <string name="pref_gcm_confirm_new_apps_summary">Perguntar antes de registrar um novo aplicativo para receber notificações push</string>
@@ -207,7 +207,7 @@ Não suportado ainda"</string>
     <string name="pref_auth_include_android_id_title">Autenticar com registro de dispositivos</string>
     <string name="pref_auth_include_android_id_summary">Quando desativado, solicitações de autenticação não serão vinculadas ao registro do dispositivo, permitindo login em dispositivos não autorizados, mas com consequências imprevistas</string>
     <string name="pref_auth_strip_device_name_title">Remover nome do dispositivo para autenticação</string>
-    <string name="pref_auth_strip_device_name_summary">Quando ativado, os pedidos de autenticação não incluirão o nome do dispositivo, o que pode permitir que dispositivos não autorizados façam login, mas com consequências imprevistas</string>
+    <string name="pref_auth_strip_device_name_summary">Quando ativado, os pedidos de autenticação não incluirão o nome do dispositivo, o que pode permitir login em dispositivos não autorizados, mas com consequências imprevistas</string>
     <!--preferences: hide icon in launcher-->
     <string name="pref_hide_launcher_icon">Ocultar ícone do launcher</string>
     <!--preferences: about-->

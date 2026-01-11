@@ -16,26 +16,26 @@
   -->
 <resources>
     <!--Updater-->
-    <string name="update_checker_button">Verificâ updates</string>
-    <string name="update_checker_download_button">Descârcârezâ</string>
+    <string name="update_checker_button">Verifică actualizări</string>
+    <string name="update_checker_download_button">Descărcare</string>
     <!--updater: messages-->
-    <string name="update_checker_no_update">Nu existâ actualizâri disponibile</string>
-    <string name="update_checker_update_available">Existâ actualizâri disponibile: %s</string>
-    <string name="update_checker_no_internet">Nu existâ conexiune la internet</string>
-    <string name="update_checker_generic_error">A ceva nu a mers bine… Te rugâm sâ incercâ mai târziu</string>
+    <string name="update_checker_no_update">Nu există actualizări disponibile</string>
+    <string name="update_checker_update_available">Există actualizări disponibile: %s</string>
+    <string name="update_checker_no_internet">Nu există conexiune la internet</string>
+    <string name="update_checker_generic_error">Ceva nu a mers bine… Te rugăm să încerci din nou mai târziu</string>
     <!--Settings About-->
-    <string name="about_morphe_description">Morphe este un proiect open-source conceput pentru a modifica aplicaţii Android prin intermediul patchurilor</string>
+    <string name="about_morphe_description">Morphe este un proiect open-source conceput pentru a modifica aplicații Android prin intermediul unor pachete</string>
     <string name="about_version_str">Versiune: %1$s</string>
     <string name="about_default_license">Toate drepturile rezervate</string>
     <!--Self Check-->
     <!--self-check: permission-->
     <string name="self_check_cat_permissions">Permisiuni</string>
     <string name="self_check_name_permission">Permisiune pentru %1$s:</string>
-    <string name="self_check_resolution_permission">Atunciătă aici pentru a concede permisiune. Nu concedând permisiunea poate duce la aplicaţii care nu se comportâ corect</string>
+    <string name="self_check_resolution_permission">Atinge aici pentru a oferi permisiune. Refuzul permisiunilor poate duce la aplicații care nu se comportă corect</string>
     <!--Settings Preferences-->
     <!--preferences: self-check-->
     <string name="self_check_title">Auto-Verificare</string>
-    <string name="self_check_desc">Verificațiăiă ca dispozitivul este corect configurat pentru a utiliza microG</string>
+    <string name="self_check_desc">Verifică dacă dispozitivul este configurat corect pentru a utiliza microG.</string>
     <!--UI preview-->
     <string name="about_root_title">Demo UI microG</string>
     <string name="about_root_version">Versiune v0.1.0</string>

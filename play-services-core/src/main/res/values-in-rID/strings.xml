@@ -5,7 +5,7 @@
   -->
 <resources>
     <!--App Names-->
-    <string name="gms_settings_name">pengaturan MicroG</string>
+    <string name="gms_settings_name">Pengaturan microG</string>
     <!--Authentication-->
     <!--auth: headers-->
     <string name="auth_add_account">Tambahkan akun</string>
@@ -181,7 +181,7 @@ Apakah Anda ingin membatalkan pendaftarannya sekarang sehingga tidak menerima no
     <string name="pref_device_registration_import_custom_profile_summary">Impor profil perangkat dari berkas</string>
     <string name="pref_device_registration_serial_title">Serial</string>
     <string name="pref_device_registration_android_id">ID Android</string>
-    <string name="pref_checkin_enable_summary">Daftarkan perangkat Anda ke layanan Google dan membuat identitas perangkat unik. MicroG menghapus bagian-bagian yang mengidentifikasi selain nama akun Google Anda dari data pendaftaran</string>
+    <string name="pref_checkin_enable_summary">Daftarkan perangkat Anda ke layanan Google dan membuat identitas perangkat unik. microG menghapus bagian-bagian yang mengidentifikasi selain nama akun Google Anda dari data pendaftaran</string>
     <!--preferences: cloud messaging-->
     <string name="prefcat_push_apps_title">Aplikasi menggunakan notifikasi dorong</string>
     <string name="pref_push_app_allow_register_title">Izinkan pendaftaran</string>
@@ -197,7 +197,7 @@ Apakah Anda ingin membatalkan pendaftarannya sekarang sehingga tidak menerima no
     <string name="pref_privacy_title">Privasi</string>
     <string name="pref_privacy_summary">Pengaturan privasi untuk autentikasi dan aplikasi</string>
     <string name="pref_network_google_enabled">Izinkan sambungan ke server Google</string>
-    <string name="pref_network_google_enabled_summary">Jika dinonaktifkan, semua sambungan ke server Google biasanya dilakukan oleh MicroG akan ditolak. Ini menggantikan pengaturan layanan tertentu</string>
+    <string name="pref_network_google_enabled_summary">Jika dinonaktifkan, semua sambungan ke server Google biasanya dilakukan oleh microG akan ditolak. Ini menggantikan pengaturan layanan tertentu</string>
     <string name="pref_network_google_use_tor">Sambungkan ke Google melalui jaringan Tor</string>
     <string name="pref_network_google_use_tor_summary">"Memerlukan Orbot untuk dipasang
 Belum didukung"</string>
@@ -223,7 +223,7 @@ Belum didukung"</string>
     <string name="perm_extended_access_label">Akses lanjutan ke layanan Google</string>
     <!--Conditions-->
     <string name="cond_gcm_bat_title">Optimasi baterai diaktifkan</string>
-    <string name="cond_gcm_bat_summary">Anda mengaktifkan layanan cloud tetapi memiliki optimasi baterai aktif untuk Layanan MicroG. Untuk menerima notifikasi dorong, Anda harus mengabaikan optimasi baterai</string>
+    <string name="cond_gcm_bat_summary">Anda mengaktifkan layanan cloud tetapi memiliki optimasi baterai aktif untuk Layanan microG. Untuk menerima notifikasi dorong, Anda harus mengabaikan optimasi baterai</string>
     <string name="cond_gcm_bat_action">Abaikan optimasi</string>
     <string name="cond_perm_title">Perizinan hilang</string>
 </resources>

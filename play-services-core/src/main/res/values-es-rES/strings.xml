@@ -60,7 +60,7 @@ Tus datos no se perderán"</string>
     <!--gcm: register dialogs-->
     <string name="gcm_registered">Registrado</string>
     <string name="gcm_unregister_app">Cancelar registro</string>
-    <string name="gcm_remove_registers_dialog_title">Eliminar todos los registros?</string>
+    <string name="gcm_remove_registers_dialog_title">¿Eliminar todos los registros?</string>
     <!-- %1$s is an app name, such as "YouTube"? -->
     <string name="gcm_unregister_confirm_title">¿Cancelar el registro de %1$s?</string>
     <string name="gcm_remove_registers_dialog_message">"Esto eliminará todas las aplicaciones registradas para notificaciones push a la vez
@@ -164,63 +164,63 @@ Es posible que algunas aplicaciones no puedan volver a registrarse después de e
     <string name="prefcat_authentication">Autenticación</string>
     <string name="prefcat_about">Acerca de Morphe</string>
     <string name="prefcat_details">Detalles</string>
-    <string name="pref_info_status">Cuentas</string>
+    <string name="pref_info_status">Estado</string>
     <!--preferences: account manager-->
-    <string name="pref_account_title">Iniciar sesión en una nueva cuenta de Google</string>
-    <string name="pref_account_summary">Añadir y administrar cuentas de Google</string>
-    <string name="pref_accounts_summary">Administrar cuentas</string>
-    <string name="pref_accounts_manage_accounts_title">Abrir administrador de cuentas del dispositivo</string>
-    <string name="pref_accounts_manage_accounts_summary">Administrar todo el historial</string>
-    <string name="pref_manage_all_history">Tus datos en YouTube</string>
-    <string name="pref_data_in_youtube">Las cuentas se guardan y se almacenan solo en este dispositivo. Toca en una cuenta para eliminarla permanentemente de este dispositivo</string>
-    <string name="pref_accounts_login_accounts_summary">Perfil de dispositivo</string>
+    <string name="pref_account_title">Cuentas</string>
+    <string name="pref_account_summary">Iniciar sesión en una nueva cuenta de Google</string>
+    <string name="pref_accounts_summary">Agregar y administrar cuentas de Google</string>
+    <string name="pref_accounts_manage_accounts_title">Gestionar cuentas</string>
+    <string name="pref_accounts_manage_accounts_summary">Abrir administrador de cuentas del dispositivo</string>
+    <string name="pref_manage_all_history">Administrar todo el historial</string>
+    <string name="pref_data_in_youtube">Sus datos en YouTube</string>
+    <string name="pref_accounts_login_accounts_summary">Las cuentas se guardan y almacenan solo en este dispositivo. Toque una cuenta para eliminarla permanentemente de este dispositivo.</string>
     <!--preferences: device registration-->
-    <string name="pref_device_registration_device_profile_category">Seleccionar perfil</string>
-    <string name="pref_device_registration_select_profile_title">Importar perfil personalizado</string>
-    <string name="pref_device_registration_import_custom_profile_title">Importar perfil de dispositivo desde archivo</string>
-    <string name="pref_device_registration_import_custom_profile_summary">Serial</string>
+    <string name="pref_device_registration_device_profile_category">Perfil del dispositivo</string>
+    <string name="pref_device_registration_select_profile_title">Seleccionar perfil</string>
+    <string name="pref_device_registration_import_custom_profile_title">Importar perfil personalizado</string>
+    <string name="pref_device_registration_import_custom_profile_summary">Importar perfil de dispositivo desde archivo</string>
     <string name="pref_device_registration_serial_title">ID de Android</string>
-    <string name="pref_device_registration_android_id">Registra tu dispositivo en los servicios de Google y crea un identificador de dispositivo único. MicroG elimina los bits de identificación, excepto el nombre de la cuenta de Google, de los datos de registro</string>
+    <string name="pref_device_registration_android_id">ID de Android</string>
     <string name="pref_checkin_enable_summary">Registra tu dispositivo en los servicios de Google y crea un identificador de dispositivo único. microG elimina los bits identificadores de los datos de registro, excepto tu nombre de cuenta de Google.</string>
     <!--preferences: cloud messaging-->
-    <string name="prefcat_push_apps_title">Permitir registro</string>
+    <string name="prefcat_push_apps_title">Aplicaciones que utilizan notificaciones push</string>
     <string name="pref_push_app_allow_register_title">Permitir que la aplicación se registre para recibir notificaciones push</string>
-    <string name="pref_push_app_allow_register_summary">Iniciar la aplicación mientras está en segundo plano para recibir los mensajes push entrantes</string>
-    <string name="pref_push_app_wake_for_delivery_title">Cloud messaging es un proveedor de notificaciones push utilizado para aplicaciones modificadas. Para usarlo, debes habilitar el registro de dispositivo</string>
-    <string name="pref_push_app_wake_for_delivery_summary">Confirmar nuevas aplicaciones</string>
-    <string name="pref_gcm_enable_mcs_summary">Preguntar antes de registrar una nueva aplicación para recibir notificaciones push</string>
-    <string name="pref_gcm_confirm_new_apps_title">Eliminar todos los registros registrados</string>
-    <string name="pref_gcm_confirm_new_apps_summary">Solo utiliza esta opción si tienes problemas registrando una aplicación o recibiendo notificaciones</string>
-    <string name="pref_gcm_remove_registers">Privacidad</string>
-    <string name="pref_gcm_remove_registers_summary">Ajustes de privacidad para la autenticación y las aplicaciones</string>
+    <string name="pref_push_app_allow_register_summary">Permitir que la app se registre para recibir notificaciones push</string>
+    <string name="pref_push_app_wake_for_delivery_title">Iniciar app en un mensaje push</string>
+    <string name="pref_push_app_wake_for_delivery_summary">Iniciar la app en segundo plano para recibir los mensajes de push entrantes</string>
+    <string name="pref_gcm_enable_mcs_summary">Cloud messaging es un proveedor de notificaciones push utilizado para aplicaciones modificadas. Para utilizarlo, debes habilitar el registro del dispositivo.</string>
+    <string name="pref_gcm_confirm_new_apps_title">Confirmar nuevas apps</string>
+    <string name="pref_gcm_confirm_new_apps_summary">Preguntar antes de registrar una nueva app para recibir notificaciones por push.</string>
+    <string name="pref_gcm_remove_registers">Eliminar todas las aplicaciones registradas</string>
+    <string name="pref_gcm_remove_registers_summary">Sólo utilice esta opción si está teniendo problemas para registrar una aplicación o recibir notificaciones</string>
     <!--preferences: privacy-->
-    <string name="pref_privacy_title">Permitir conectarse a los servidores de Google</string>
-    <string name="pref_privacy_summary">Si se desactiva, todas las conexiones con los servidores de Google usualmente realizadas por MicroG se negarán. Esto anula los ajustes específicos del servicio</string>
-    <string name="pref_network_google_enabled">Conectar a Google a través de la red Tor</string>
+    <string name="pref_privacy_title">Privacidad</string>
+    <string name="pref_privacy_summary">Ajustes de privacidad para la autenticación y las aplicaciones</string>
+    <string name="pref_network_google_enabled">Permitir la conexión a los servidores de Google</string>
     <string name="pref_network_google_enabled_summary">Si se desactiva, todas las conexiones a los servidores de Google usualmente realizadas por microG serán denegadas. Esto anula la configuración específica del servicio</string>
-    <string name="pref_network_google_use_tor">Confiar en Google para permisos de la aplicación</string>
+    <string name="pref_network_google_use_tor">Conectar a Google a través de la red Tor</string>
     <string name="pref_network_google_use_tor_summary">"Requiere que Orbot esté instalado
 Todavía no es compatible"</string>
     <string name="pref_auth_trust_google_title">Permitir que las aplicaciones vean las cuentas de Google</string>
-    <string name="pref_auth_trust_google_summary">Cuando se activa, todas las aplicaciones en este dispositivo podrán ver la dirección de correo electrónico de tus cuentas de Google sin autorización previa</string>
-    <string name="pref_auth_visible_title">Autenticar con registro de dispositivo</string>
-    <string name="pref_auth_visible_summary">Cuando se desactiva, las solicitudes de autenticación no se vincularán al registro del dispositivo, lo que permite que dispositivos no autorizados inicien sesión, pero puede tener consecuencias imprevistas</string>
-    <string name="pref_auth_include_android_id_title">Eliminar el nombre del dispositivo para la autenticación</string>
-    <string name="pref_auth_include_android_id_summary">Cuando se activa, las solicitudes de autenticación no incluirán el nombre del dispositivo, lo que puede permitir que dispositivos no autorizados inicien sesión, pero puede tener consecuencias imprevistas</string>
+    <string name="pref_auth_trust_google_summary">Cuando está desactivado, se solicita al usuario antes de enviar una solicitud de autorización de la aplicación a Google. Algunas aplicaciones no podrán utilizar la cuenta de Google si está desactivado</string>
+    <string name="pref_auth_visible_title">Permitir que las aplicaciones encuentren las cuentas</string>
+    <string name="pref_auth_visible_summary">Cuando esté habilitado, todas las aplicaciones en este dispositivo podrán ver las direcciones de correo electrónico de sus cuentas de Google sin autorización previa.</string>
+    <string name="pref_auth_include_android_id_title">Autenticar con registro de dispositivo</string>
+    <string name="pref_auth_include_android_id_summary">Cuando está deshabilitada, las solicitudes de autenticación no se vincularán al registro del dispositivo, lo que permite que dispositivos no autorizados inicien sesión, pero puede tener consecuencias imprevistas.</string>
     <string name="pref_auth_strip_device_name_title">Eliminar el nombre del dispositivo para la autenticación</string>
     <string name="pref_auth_strip_device_name_summary">Cuando se activa, las solicitudes de autenticación no incluirán el nombre del dispositivo, lo que puede permitir que dispositivos no autorizados inicien sesión, pero puede tener consecuencias imprevistas.</string>
     <!--preferences: hide icon in launcher-->
     <string name="pref_hide_launcher_icon">Ocultar icono en el lanzador</string>
     <!--preferences: about-->
     <string name="pref_about_title">Acerca de MicroG RE</string>
-    <string name="pref_github_summary">Acceso extendido a los servicios de Google</string>
+    <string name="pref_github_summary">Repositorio de código fuente</string>
     <!--Permissions-->
     <string name="perm_status_broadcast_label">Optimizaciones de batería activadas</string>
     <string name="perm_gsf_read_gservices_label">leer la configuración del servicio de Google</string>
     <string name="perm_c2dm_receive_label">escuchar mensajes C2DM</string>
     <string name="perm_c2dm_send_label">Enviar mensajes C2DM a otros servicios</string>
-    <string name="perm_gtalk_svc_label">Intercambiar mensajes y recibir notificaciones de sincronización de Google</string>
-    <string name="perm_extended_access_label">Acceso extendido a Google</string>
+    <string name="perm_gtalk_svc_label">intercambiar mensajes y recibir notificaciones de síncronización de los servidores de Google</string>
+    <string name="perm_extended_access_label">Acceso extendido a los servicios de Google</string>
     <!--Conditions-->
     <string name="cond_gcm_bat_title">Optimizaciones de la batería habilitadas</string>
     <string name="cond_gcm_bat_summary">Has activado la mensajería en la nube, pero tiene optimizaciones de batería activas para los servicios de microG. Para recibir notificaciones push, deberías ignorar las optimizaciones de batería</string>

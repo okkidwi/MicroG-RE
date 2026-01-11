@@ -5,7 +5,7 @@
   -->
 <resources>
     <!--App Names-->
-    <string name="gms_settings_name">ustawienia MicroG</string>
+    <string name="gms_settings_name">Ustawienia microG</string>
     <!--Authentication-->
     <!--auth: headers-->
     <string name="auth_add_account">Dodaj konto</string>
@@ -197,7 +197,7 @@ Niektóre aplikacje mogą nie być w stanie zarejestrować ponownie po tej opera
     <string name="pref_privacy_title">Prywatność</string>
     <string name="pref_privacy_summary">Ustawienia prywatności dla uwierzytelniania i aplikacji</string>
     <string name="pref_network_google_enabled">Zezwól na połączenie z serwerami Google</string>
-    <string name="pref_network_google_enabled_summary">Jeśli wyłączone, wszystkie połączenia z serwerami Google zazwyczaj robione przez microG zostaną odrzucone. To nadpisuje ustawienia specyficzne dla usług</string>
+    <string name="pref_network_google_enabled_summary">Jeśli wyłączone, wszystkie połączenia z serwerami Google zazwyczaj robione przez microG zostaną odrzucone. To nadpisuje specyficzne ustawienia usług</string>
     <string name="pref_network_google_use_tor">Połącz się z Google przez sieć Tor</string>
     <string name="pref_network_google_use_tor_summary">"Wymagane Orbot do zainstalowania
 Obecnie nie obsługiwane"</string>

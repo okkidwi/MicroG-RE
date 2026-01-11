@@ -30,14 +30,14 @@
     <!--Self Check-->
     <!--self-check: permission-->
     <string name="self_check_cat_permissions">権限</string>
-    <string name="self_check_name_permission">%1$sの権限:</string>
+    <string name="self_check_name_permission">%1$s の権限:</string>
     <string name="self_check_resolution_permission">ここにタッチして権限を付与します。権限の付与がされないと、不安定なアプリケーションになります</string>
     <!--Settings Preferences-->
     <!--preferences: self-check-->
     <string name="self_check_title">自己チェック</string>
-    <string name="self_check_desc">デバイスが正しくmicroGを使用するように設定されていることを確認してください</string>
+    <string name="self_check_desc">デバイスが正しく microG を使用するように設定されていることを確認してください</string>
     <!--UI preview-->
-    <string name="about_root_title">microG UIデモ</string>
+    <string name="about_root_title">microG UI デモ</string>
     <string name="about_root_version">バージョン v0.1.0</string>
     <string name="about_root_libraries">含まれるライブラリ</string>
 </resources>

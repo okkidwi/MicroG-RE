@@ -30,7 +30,7 @@
     <!--Self Check-->
     <!--self-check: permission-->
     <string name="self_check_cat_permissions">권한</string>
-    <string name="self_check_name_permission">%1$s에 대한 권한:</string>
+    <string name="self_check_name_permission">\'%1$s\'에 대한 권한:</string>
     <string name="self_check_resolution_permission">권한을 허용하려면 여기를 탭하십시오. 권한을 허용하지 않으면 애플리케이션이 제대로 작동하지 않을 수 있습니다</string>
     <!--Settings Preferences-->
     <!--preferences: self-check-->
