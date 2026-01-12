@@ -25,7 +25,7 @@
     <string name="update_checker_generic_error">มีบางอย่างผิดพลาด… กรุณาลองใหม่อีกครั้ง</string>
     <!--Settings About-->
     <string name="about_morphe_description">Morphe เป็นโปรเจ็กต์โอเพนซอร์สที่ออกแบบมาเพื่อปรับเปลี่ยนแอปพลิเคชันแอนดรอยด์ผ่านการปรับปรุง</string>
-    <string name="about_version_str">เวอร์ชัน: %1$s</string>
+    <string name="about_version_str">เวอร์ชัน %1$s</string>
     <string name="about_default_license">สงวนสิทธิ์ทั้งหมด</string>
     <!--Self Check-->
     <!--self-check: permission-->

@@ -25,7 +25,7 @@
     <string name="update_checker_generic_error">Nə problem var… Zəhmət olmasa, sonra yenidən cəhd edin</string>
     <!--Settings About-->
     <string name="about_morphe_description">Morphe, Android app-ləri dəyişmək üçün açarlar vasitəsilə açıq mənbəli bir layihədir</string>
-    <string name="about_version_str">Versiya: %1$s</string>
+    <string name="about_version_str">Versiya %1$s</string>
     <string name="about_default_license">Bütün hüquqlar qorunur</string>
     <!--Self Check-->
     <!--self-check: permission-->

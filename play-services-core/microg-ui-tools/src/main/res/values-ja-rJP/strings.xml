@@ -25,7 +25,7 @@
     <string name="update_checker_generic_error">何かがうまくいかない… 後で再試行してください</string>
     <!--Settings About-->
     <string name="about_morphe_description">Morpheは、Androidアプリをパッチを通して修正するために設計されたオープンソースプロジェクトです</string>
-    <string name="about_version_str">バージョン: %1$s</string>
+    <string name="about_version_str">バージョン %1$s</string>
     <string name="about_default_license">全ての権利所有</string>
     <!--Self Check-->
     <!--self-check: permission-->

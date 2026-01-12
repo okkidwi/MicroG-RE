@@ -25,7 +25,7 @@
     <string name="update_checker_generic_error">Κάτι πήγε στραβά… Παρακαλώ δοκιμάστε αργότερα</string>
     <!--Settings About-->
     <string name="about_morphe_description">O Morphe είναι ένα ανοιχτού κώδικα πρότζεκτ που σχεδιάζει να τροποποιήσει εφαρμογές Android μέσω πατσών</string>
-    <string name="about_version_str">Έκδοση: %1$s</string>
+    <string name="about_version_str">Έκδοση %1$s</string>
     <string name="about_default_license">Όλα τα δικαιώματα διατηρούνται</string>
     <!--Self Check-->
     <!--self-check: permission-->

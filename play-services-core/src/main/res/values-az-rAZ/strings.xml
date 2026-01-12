@@ -92,7 +92,7 @@ Bazı tətbiqlər yenidən qeydiyyatdan keçməyə imkan vermir"</string>
     <string name="push_notifications_summary_automatic">ON / Manual: %s</string>
     <string name="push_notifications_summary_manual">%s dəqiqə</string>
     <string name="push_notifications_summary_values_seconds">%s saniyə</string>
-    <string name="push_notifications_summary_values_minutes">Rəddiyyatdan imtina edən bir app var.\nBu app-ü indi qeydiyyatdan çıxarmaq istəyirsiniz?</string>
+    <string name="push_notifications_summary_values_minutes">%s dəqiqə</string>
     <!--gcm: ask push permission dialog-->
     <!-- %1$s is an app name, such as "YouTube" -->
     <string name="gcm_allow_app_popup">%1$s push xəbərdarlıqlar üçün qeydiyyata qoşulma icazəsi verin?</string>

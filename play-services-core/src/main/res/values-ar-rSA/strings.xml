@@ -5,7 +5,7 @@
   -->
 <resources>
     <!--App Names-->
-    <string name="gms_settings_name">إعدادات MicroG</string>
+    <string name="gms_settings_name">إعدادات microG</string>
     <!--Authentication-->
     <!--auth: headers-->
     <string name="auth_add_account">أضف حسابًا</string>

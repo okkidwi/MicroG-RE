@@ -5,7 +5,7 @@
   -->
 <resources>
     <!--App Names-->
-    <string name="gms_settings_name">GmsCore</string>
+    <string name="gms_settings_name">Cài đặt microG</string>
     <!--Authentication-->
     <!--auth: headers-->
     <string name="auth_add_account">Thêm tài khoản</string>
@@ -21,10 +21,10 @@
     <!-- %1$s is an app name, such as "YouTube" -->
     <string name="signin_confirm_title">Cho phép đăng nhập vào %1$s</string>
     <!-- %1$s is an app name, such as "YouTube" -->
-    <string name="signin_subtext_sharing">Để tiếp tục, MicroG sẽ chia sẻ TÊN, ĐỊA CHỈ EMAIL, ẢNH ĐẠI DIỆN tài khoản Google của bạn với %1$s</string>
+    <string name="signin_subtext_sharing">Để tiếp tục, microG sẽ chia sẻ TÊN, ĐỊA CHỈ EMAIL, ẢNH ĐẠI DIỆN tài khoản Google của bạn với %1$s</string>
     <!--auth: buttons-->
     <!--auth: messages-->
-    <string name="auth_before_connect">"Liên kết tài khoản Google với MicroG.\n\nĐể tiếp tục, hãy ấn nút <b>Đăng nhập</b> hoặc nút <b>Huawei</b> nếu bạn đang sử dụng thiết bị đến từ Huawei. Khi đó, bạn sẽ được chuyển đến trang đăng nhập."</string>
+    <string name="auth_before_connect">"Liên kết tài khoản Google với microG.\n\nĐể tiếp tục, hãy ấn nút <b>Đăng nhập</b> hoặc nút <b>Huawei</b> nếu bạn đang sử dụng thiết bị đến từ Huawei. Khi đó, bạn sẽ được chuyển đến trang đăng nhập."</string>
     <string name="auth_connecting">"Đang chuyển đến trang đăng nhập của Google.\n\nQuá trình này sẽ hoàn tất sau giây lát"</string>
     <string name="auth_no_network_error_desc">"Không có kết nối mạng.\n\nCó thể do mạng yếu hoặc sự cố tạm thời từ máy chủ, hãy kiểm tra kết nối mạng và thử lại"</string>
     <string name="auth_general_error_desc">"Không thể kết nối với máy chủ Google.\n\nHãy thử lại sau"</string>
@@ -161,7 +161,7 @@
     <string name="pref_device_registration_import_custom_profile_summary">Nhập cấu hình thiết bị từ tệp</string>
     <string name="pref_device_registration_serial_title">Số sê-ri</string>
     <string name="pref_device_registration_android_id">Android ID</string>
-    <string name="pref_checkin_enable_summary">Đăng ký thiết bị của bạn với Google và tạo mã định danh riêng. MicroG loại bỏ các thông tin nhận dạng khác ngoài tên tài khoản Google của bạn khỏi dữ liệu đăng ký</string>
+    <string name="pref_checkin_enable_summary">Đăng ký thiết bị của bạn với Google và tạo mã định danh riêng. microG loại bỏ các thông tin nhận dạng khác ngoài tên tài khoản Google của bạn khỏi dữ liệu đăng ký</string>
     <!--preferences: cloud messaging-->
     <string name="prefcat_push_apps_title">Ứng dụng dùng dịch vụ thông báo đẩy</string>
     <string name="pref_push_app_allow_register_title">Cho phép đăng ký</string>
@@ -177,7 +177,7 @@
     <string name="pref_privacy_title">Quyền riêng tư</string>
     <string name="pref_privacy_summary">Cài đặt quyền riêng tư cho xác thực và ứng dụng</string>
     <string name="pref_network_google_enabled">Cho phép kết nối tới máy chủ Google</string>
-    <string name="pref_network_google_enabled_summary">Nếu tắt, mọi kết nối tới máy chủ Google thường được thực hiện bởi MicroG sẽ chặn. Cài đặt này sẽ ghi đè các cài đặt cụ thể của từng dịch vụ</string>
+    <string name="pref_network_google_enabled_summary">Nếu tắt, mọi kết nối tới máy chủ Google thường được thực hiện bởi microG sẽ chặn. Cài đặt này sẽ ghi đè các cài đặt cụ thể của từng dịch vụ</string>
     <string name="pref_network_google_use_tor">Kết nối đến Google qua mạng Tor</string>
     <string name="pref_network_google_use_tor_summary">"Yêu cầu cài đặt Orbot\nHiện chưa được hỗ trợ"</string>
     <string name="pref_auth_trust_google_title">Tin tưởng Google khi ứng dụng xin quyền</string>
@@ -202,7 +202,7 @@
     <string name="perm_extended_access_label">Quyền truy cập mở rộng vào dịch vụ Google</string>
     <!--Conditions-->
     <string name="cond_gcm_bat_title">Tối ưu pin đang bật</string>
-    <string name="cond_gcm_bat_summary">Bạn đã bật Thông báo đám mây nhưng chưa tắt tối ưu hóa cho Dịch vụ MicroG. Hãy tắt tối ưu hóa pin để nhận thông báo đẩy</string>
+    <string name="cond_gcm_bat_summary">Bạn đã bật Thông báo đám mây nhưng chưa tắt tối ưu hóa cho Dịch vụ microG. Hãy tắt tối ưu hóa pin để nhận thông báo đẩy</string>
     <string name="cond_gcm_bat_action">Tắt tối ưu hoá</string>
     <string name="cond_perm_title">Thiếu quyền</string>
 </resources>

@@ -25,7 +25,7 @@
     <string name="update_checker_generic_error">Něco se pokazilo… Prosím, zkuste to později znovu</string>
     <!--Settings About-->
     <string name="about_morphe_description">Morphe je otevřený zdrojový projekt, který je určen pro modifikaci aplikací pro Android prostřednictvím patčů</string>
-    <string name="about_version_str">Verze: %1$s</string>
+    <string name="about_version_str">Verze %1$s</string>
     <string name="about_default_license">Všechna práva vyhrazena</string>
     <!--Self Check-->
     <!--self-check: permission-->

@@ -25,7 +25,7 @@
     <string name="update_checker_generic_error">Jotain meni pieleen… Yritä myöhemmin uudelleen</string>
     <!--Settings About-->
     <string name="about_morphe_description">Morphe on avoimen lähdekoodin projekti, joka on suunniteltu muokkaamaan Android-sovelluksia patsain avulla</string>
-    <string name="about_version_str">Versio: %1$s</string>
+    <string name="about_version_str">Versio %1$s</string>
     <string name="about_default_license">Kaikki oikeudet pidätetään</string>
     <!--Self Check-->
     <!--self-check: permission-->

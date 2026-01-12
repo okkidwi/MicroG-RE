@@ -25,7 +25,7 @@
     <string name="update_checker_generic_error">Ada kesalahan… Silakan coba lagi nanti</string>
     <!--Settings About-->
     <string name="about_morphe_description">Morphe adalah proyek sumber terbuka yang dirancang untuk memodifikasi aplikasi Android melalui tambalan</string>
-    <string name="about_version_str">Versi: %1$s</string>
+    <string name="about_version_str">Versi %1$s</string>
     <string name="about_default_license">Hak cipta dilindungi undang-undang</string>
     <!--Self Check-->
     <!--self-check: permission-->

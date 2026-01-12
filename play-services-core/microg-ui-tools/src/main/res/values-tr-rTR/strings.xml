@@ -25,7 +25,7 @@
     <string name="update_checker_generic_error">Bir hata oluştu... Lütfen daha sonra tekrar deneyin</string>
     <!--Settings About-->
     <string name="about_morphe_description">Morphe, Android uygulamaları için açılış kodları yoluyla değiştirmek üzere tasarlanmış açık kaynaklı bir projedir</string>
-    <string name="about_version_str">Sürüm: %1$s</string>
+    <string name="about_version_str">Sürüm %1$s</string>
     <string name="about_default_license">Tüm hakları saklıdır</string>
     <!--Self Check-->
     <!--self-check: permission-->
