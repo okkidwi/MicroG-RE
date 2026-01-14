@@ -64,13 +64,14 @@ Vos données ne seront pas perdues"</string>
     <string name="gcm_remove_registers_dialog_title">Supprimer tous les enregistrements ?</string>
     <!-- %1$s is an app name, such as "YouTube"? -->
     <string name="gcm_unregister_confirm_title">Désenregistrer %1$s ?</string>
-    <string name="gcm_remove_registers_dialog_message">"Cela supprimera toutes les applications enregistrées pour les notifications push en une seule fois
+    <string name="gcm_remove_registers_dialog_message">"Cela supprimera l’enregistrement de toutes les applications pour les notifications push en une seule fois.
 
-Vous devrez ouvrir les applications pour les réenregistrer sur cloud messaging
+Vous aurez besoin d’un nouveau securityToken et Id Android pour enregistrer les applications. 
 
-Certaines applications pourraient ne pas pouvoir s’enregistrer à nouveau après cette action"</string>
+Vérifiez le statut d’enregistrement de l’appareil. Certaines applications pourraient ne pas pouvoir s’enregistrer à nouveau après cette action. Vous devrez peut-être effacer leurs données avant qu’elles puissent demander un nouvel enregistrement"</string>
     <string name="gcm_unregister_confirm_message">"Certaines applications ne se réenregistrent pas automatiquement et/ou ne proposent pas d’option pour le faire manuellement. Ces applications pourraient ne pas fonctionner correctement après le désenregistrement.
 Continuer ?"</string>
+    <string name="gcm_remove_registers_toast_message">Toutes les applications ont été supprimées des notifications push</string>
     <string name="gcm_unregister_after_deny_message">"Vous avez refusé à une application de s’enregistrer pour les notifications push, mais elle est déjà enregistrée.
 Voulez-vous la désenregistrer maintenant afin qu’elle ne reçoive plus de messages push à l’avenir ?"</string>
     <!--gcm: register messages infos-->
@@ -165,6 +166,7 @@ Voulez-vous la désenregistrer maintenant afin qu’elle ne reçoive plus de mes
     <string name="prefcat_authentication">Authentification</string>
     <string name="prefcat_about">À propos</string>
     <string name="prefcat_details">Détails</string>
+    <string name="prefcat_advanced">Avancé</string>
     <string name="pref_info_status">Statut</string>
     <!--preferences: account manager-->
     <string name="pref_account_title">Comptes</string>

@@ -55,12 +55,13 @@ Algunες υπηρεσίες και λειτουργίες θα είναι μη 
     <string name="gcm_remove_registers_dialog_title">Αφαιρέστε όλες τις εγγραφές;</string>
     <!-- %1$s is an app name, such as "YouTube"? -->
     <string name="gcm_unregister_confirm_title">Ἀφελεῖν %1$s;</string>
-    <string name="gcm_remove_registers_dialog_message">"Αυτή η ενέργεια θα αφαιρέσει όλες τις εφαρμογές που έχουν καταχωριστεί για ειδοποιήσεις στο χέρι
+    <string name="gcm_remove_registers_dialog_message">"Αυτό θα αφαιρέσει όλες τις καταχωρημένες εφαρμογές από την λήψη ειδοποιήσεων στο παρασκήνιο
 
-Θα χρειαστεί να ανοίξεις τις εφαρμογές για να επανεγγραφείς στο cloud messaging
+Θα χρειαστεί ένα νέο securityToken και AndroidID για να καταχωρίσετε τις εφαρμογές. Ελέγξτε την κατάσταση καταχώρισης του συσκευή
 
-Algunές εφαρμογές ίσως δεν μπορούν να επανεγγραφούν μετά από αυτή την ενέργεια"</string>
+Algunες εφαρμογές μπορεί να μην μπορούν να καταχωριστούν ξανά μετά από αυτήν την ενέργεια. Πιθανότατα θα χρειαστεί να καθαρίσετε τα δεδομένα για αυτές τις εφαρμογές πριν μπορέσουν να ζητήσουν καταχώρηση ξανά"</string>
     <string name="gcm_unregister_confirm_message">"Algunές εφαρμογές δεν επαναεγγραφούνται αυτόματα και/ή δεν παρέχουν επιλογή για επαναεγγραφή. Αυτές οι εφαρμογές ίσως να δεν λειτουργούν σωστά μετά από την αφαίρεση."</string>
+    <string name="gcm_remove_registers_toast_message">Όλες οι εφαρμογές αφαιρέθηκαν από την ειδοποίηση push</string>
     <string name="gcm_unregister_after_deny_message">"Επιτρέψα μια εφαρμογή να καταχωριστεί για ειδοποιήσεις που είναι ήδη καταχωρισμένη.
 Θα θέλεις να αφαιρέσεις την εγγραφή της έτσι ώστε να μην λαμβάνει ειδοποιήσεις στο μέλλον;"</string>
     <!--gcm: register messages infos-->
@@ -155,6 +156,7 @@ Algunές εφαρμογές ίσως δεν μπορούν να επανεγγ�
     <string name="prefcat_authentication">Συσκευή εγγραφής</string>
     <string name="prefcat_about">Σχετικά με</string>
     <string name="prefcat_details">Λεπτομέρει</string>
+    <string name="prefcat_advanced">Για προχωρημένους</string>
     <string name="pref_info_status">Κατάσταση</string>
     <!--preferences: account manager-->
     <string name="pref_account_title">Λογαριασμοί</string>

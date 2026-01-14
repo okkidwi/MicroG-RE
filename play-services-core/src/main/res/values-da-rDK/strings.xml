@@ -63,13 +63,14 @@ Din data vil ikke blive tabt"</string>
     <string name="gcm_remove_registers_dialog_title">Fjern alle registreringer?</string>
     <!-- %1$s is an app name, such as "YouTube"? -->
     <string name="gcm_unregister_confirm_title">Fjern %1$s?</string>
-    <string name="gcm_remove_registers_dialog_message">"Dette vil fjerne alle applikationer, der er registreret for push-notifikationer på en gang
+    <string name="gcm_remove_registers_dialog_message">"Dette vil fjerne alle registrerede apps fra at modtage push-notifikationer samtidig
 
-Du skal åbne applikationerne igen for at genregistrere på cloud-messaging
+Du vil behøve en ny securityToken og AndroidID til at registrere apps. Tjek device registreringsstatusen
 
-Nogle apps kan ikke registrere igen efter denne handling"</string>
+Nogle apps kan ikke registreres igen efter denne handling. Du måske skal rydde data for disse apps for at de kan anmode registrering igen"</string>
     <string name="gcm_unregister_confirm_message">"Nogle apps registrerer ikke automatisk igen og/eller tilbyder ikke en mulighed for at gøre det manuelt. Disse apps kan ikke fungere korrekt efter afregistrering.
 Fortsæt?"</string>
+    <string name="gcm_remove_registers_toast_message">Alle apps fjernet fra push-notifikation</string>
     <string name="gcm_unregister_after_deny_message">"Du nægtede en app at registrere for push-notifikationer, der allerede er registreret.
 Vil du nu afregistrere den, så den ikke modtager push-meddelelser i fremtiden?"</string>
     <!--gcm: register messages infos-->
@@ -164,6 +165,7 @@ Vil du nu afregistrere den, så den ikke modtager push-meddelelser i fremtiden?"
     <string name="prefcat_authentication">Godkendelse</string>
     <string name="prefcat_about">Om</string>
     <string name="prefcat_details">Detaljer</string>
+    <string name="prefcat_advanced">Avanceret</string>
     <string name="pref_info_status">Status</string>
     <!--preferences: account manager-->
     <string name="pref_account_title">Konti</string>

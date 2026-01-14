@@ -63,13 +63,14 @@
     <string name="gcm_remove_registers_dialog_title">移除所有註冊？</string>
     <!-- %1$s is an app name, such as "YouTube"? -->
     <string name="gcm_unregister_confirm_title">取消註冊 %1$s？</string>
-    <string name="gcm_remove_registers_dialog_message">"這將一次移除所有註冊的應用程序
+    <string name="gcm_remove_registers_dialog_message">"這將一次性移除所有已註冊的應用程序，不再接收推送通知
 
-您需要打開應用程序以在雲端訊息重新註冊
+您需要一個新的安全令牌和 AndroidID 來註冊應用程序。檢查裝置註冊狀態
 
-一些應用程序可能無法再次註冊"</string>
+一些應用程序可能無法再次註冊。您可能需要清除這些應用程序的數據，才能再次請求註冊。"</string>
     <string name="gcm_unregister_confirm_message">"一些應用程序不會自動重新註冊，並且/或沒有提供手動重新註冊的選項。這些應用程序可能在取消註冊後無法正常工作。
 繼續？"</string>
+    <string name="gcm_remove_registers_toast_message">所有應用程序已從推送通知中移除</string>
     <string name="gcm_unregister_after_deny_message">"您已拒絕一個應用程序註冊推播通知，該應用程序已註冊。
 您現在要取消註冊嗎？以便它將來不再接收推播訊息？"</string>
     <!--gcm: register messages infos-->
@@ -164,6 +165,7 @@
     <string name="prefcat_authentication">驗證</string>
     <string name="prefcat_about">關於</string>
     <string name="prefcat_details">詳細資訊</string>
+    <string name="prefcat_advanced">高级</string>
     <string name="pref_info_status">帳號</string>
     <!--preferences: account manager-->
     <string name="pref_account_title">您的裝置已登入新的 Google 帳號。</string>

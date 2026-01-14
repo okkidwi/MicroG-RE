@@ -63,12 +63,13 @@
     <string name="gcm_remove_registers_dialog_title">إزالة جميع التسجيلات؟</string>
     <!-- %1$s is an app name, such as "YouTube"? -->
     <string name="gcm_unregister_confirm_title">إلغاء تسجيل %1$s؟</string>
-    <string name="gcm_remove_registers_dialog_message">"سيؤدي هذا إلى إزالة جميع التطبيقات المسجلة لتلقي الإشعارات الفورية دفعة واحدة.
+    <string name="gcm_remove_registers_dialog_message">"سيؤدي هذا إلى إزالة جميع التطبيقات المسجلة من تلقي الإشعارات دفعة واحدة.
 
-ستحتاج إلى فتح التطبيقات لإعادة تسجيلها في خدمة تسليم الرسائل.
+ستحتاج إلى رمز أمان جديد و AndroidID جديد لتسجيل التطبيقات. تحقق من حالة تسجيل الجهاز.
 
-قد لا تتمكن بعض التطبيقات من التسجيل مرة أخرى بعد هذا الإجراء."</string>
+قد لا تتمكن بعض التطبيقات من التسجيل مرة أخرى بعد هذا الإجراء. قد تحتاج إلى مسح بيانات هذه التطبيقات قبل أن تتمكن من طلب التسجيل مجددًا."</string>
     <string name="gcm_unregister_confirm_message">"بعض التطبيقات لا تُعيد التسجيل تلقائيًا و/أو لا تُتيح خيار إعادة التسجيل يدويًا. قد لا تعمل هذه التطبيقات بشكل صحيح بعد إلغاء التسجيل."</string>
+    <string name="gcm_remove_registers_toast_message">تمت إزالة جميع التطبيقات من الإشعارات الفورية</string>
     <string name="gcm_unregister_after_deny_message">"لقد رفضتَ تسجيل تطبيق مُسجّل بالفعل لتلقّي الإشعارات الفورية.
 
 هل ترغب في إلغاء تسجيله الآن حتى لا يتلقّى إشعارات فورية في المستقبل؟"</string>
@@ -164,6 +165,7 @@
     <string name="prefcat_authentication">المصادقة</string>
     <string name="prefcat_about">لمحة</string>
     <string name="prefcat_details">التفاصيل</string>
+    <string name="prefcat_advanced">الإعدادات المتقدمة</string>
     <string name="pref_info_status">الحالة</string>
     <!--preferences: account manager-->
     <string name="pref_account_title">الحسابات</string>

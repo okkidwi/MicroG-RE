@@ -63,13 +63,14 @@ Seus dados não serão perdidos"</string>
     <string name="gcm_remove_registers_dialog_title">Remover todos os registros?</string>
     <!-- %1$s is an app name, such as "YouTube"? -->
     <string name="gcm_unregister_confirm_title">Revogar registro do %1$s?</string>
-    <string name="gcm_remove_registers_dialog_message">"Isto removerá todos os aplicativos registrados para notificações push de uma só vez
+    <string name="gcm_remove_registers_dialog_message">"Isto removerá todos os aplicativos registrados de receber notificações push de uma vez
 
-Você precisará abrir os aplicativos para registar novamente no serviço de mensagens em nuvem
+Você precisará de um novo securityToken e AndroidID para registrar aplicativos. Verifique o status de registro do dispositivo
 
-Alguns aplicativos podem não conseguir registar-se novamente após esta ação"</string>
+Alguns aplicativos podem não ser capazes de se registrar novamente após esta ação. Você pode precisar limpar os dados desses aplicativos antes que eles possam solicitar registro novamente"</string>
     <string name="gcm_unregister_confirm_message">"Alguns aplicativos não se registram automaticamente e não oferecem uma opção para fazer isso manualmente. Esses aplicativos podem não funcionar corretamente após revogar.
 Continuar?"</string>
+    <string name="gcm_remove_registers_toast_message">Todos os aplicativos removidos da notificação push</string>
     <string name="gcm_unregister_after_deny_message">"Você negou um aplicativo para se registrar notificações push que já estão registradas. Você quer revogar agora para que ele não receba mensagens push no futuro?"</string>
     <!--gcm: register messages infos-->
     <string name="gcm_no_message_yet">Nenhuma mensagem recebida até agora</string>
@@ -163,6 +164,7 @@ Continuar?"</string>
     <string name="prefcat_authentication">Autenticação</string>
     <string name="prefcat_about">Sobre</string>
     <string name="prefcat_details">Detalhes</string>
+    <string name="prefcat_advanced">Avançado</string>
     <string name="pref_info_status">Status</string>
     <!--preferences: account manager-->
     <string name="pref_account_title">Contas</string>

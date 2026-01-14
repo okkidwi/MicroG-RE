@@ -46,11 +46,16 @@
     <!--gcm: register dialogs-->
     <string name="gcm_registered">Đã đăng ký</string>
     <string name="gcm_unregister_app">Hủy đăng ký</string>
-    <string name="gcm_remove_registers_dialog_title">Xóa toàn bộ đăng ký?</string>
+    <string name="gcm_remove_registers_dialog_title">Xóa tất cả đăng ký?</string>
     <!-- %1$s is an app name, such as "YouTube"? -->
     <string name="gcm_unregister_confirm_title">Hủy đăng ký %1$s?</string>
-    <string name="gcm_remove_registers_dialog_message">"Xóa toàn bộ ứng dụng đã đăng ký nhận thông báo đẩy\n\nBạn sẽ cần mở lại các ứng dụng để đăng ký lại\n\nMột số ứng dụng có thể không đăng ký lại được"</string>
+    <string name="gcm_remove_registers_dialog_message">"Thao tác này sẽ gỡ toàn bộ ứng dụng khỏi dịch vụ thông báo đẩy
+
+Bạn sẽ cần securityToken và AndroidID mới để đăng ký lại
+
+Một số ứng dụng có thể không đăng ký lại được và sẽ cần xóa dữ liệu trước khi thử lại"</string>
     <string name="gcm_unregister_confirm_message">"Một số ứng dụng không tự đăng ký lại hoặc không có tuỳ chọn để đăng ký lại, ứng dụng có thể lỗi sau khi huỷ đăng ký.\nBạn có muốn tiếp tục?"</string>
+    <string name="gcm_remove_registers_toast_message">Đã gỡ tất cả ứng dụng khỏi dịch vụ thông báo đẩy</string>
     <string name="gcm_unregister_after_deny_message">"Bạn đã từ chối nhận thông báo đẩy dù ứng dụng đã đăng ký.\nBạn có muốn huỷ đăng ký ngay để không cần nhận thông báo nữa không?"</string>
     <!--gcm: register messages infos-->
     <string name="gcm_no_message_yet">Không có thông báo nào gần đây</string>
@@ -144,6 +149,7 @@
     <string name="prefcat_authentication">Xác thực</string>
     <string name="prefcat_about">Giới thiệu</string>
     <string name="prefcat_details">Chi tiết</string>
+    <string name="prefcat_advanced">Nâng cao</string>
     <string name="pref_info_status">Trạng thái</string>
     <!--preferences: account manager-->
     <string name="pref_account_title">Tài khoản</string>

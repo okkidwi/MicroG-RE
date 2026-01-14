@@ -63,14 +63,15 @@ Deine Daten gehen nicht verloren"</string>
     <string name="gcm_remove_registers_dialog_title">Alle Registrierungen entfernen?</string>
     <!-- %1$s is an app name, such as "YouTube"? -->
     <string name="gcm_unregister_confirm_title">Abmelden von %1$s?</string>
-    <string name="gcm_remove_registers_dialog_message">"Dies wird alle Anwendungen auf einmal entfernen, die für Push-Benachrichtigungen registriert sind
+    <string name="gcm_remove_registers_dialog_message">"Dies wird alle registrierten Apps gleichzeitig von der Push-Benachrichtigung abmelden
 
-Du musst die Anwendungen öffnen, um dich erneut beim Cloud-Messaging anzumelden
+Sie benötigen einen neuen SecurityToken und AndroidID, um Apps zu registrieren. Überprüfen Sie den Status der Geräteregistrierung
 
-Einige Apps können sich nach dieser Aktion möglicherweise nicht erneut registrieren"</string>
+Einige Apps können möglicherweise nicht erneut registriert werden. Sie müssen möglicherweise die Daten dieser Apps löschen, damit sie erneut eine Registrierung anfordern können."</string>
     <string name="gcm_unregister_confirm_message">"Einige Apps registrieren sich nicht automatisch erneut und/oder bieten keine Option dafür.
 Diese Apps könnten nach dem Abmelden nicht mehr korrekt funktionieren.
 Weiter?"</string>
+    <string name="gcm_remove_registers_toast_message">Alle Apps von Push-Benachrichtigung abgemeldet</string>
     <string name="gcm_unregister_after_deny_message">"Du hast einer App die Registrierung für Push-Benachrichtigungen verweigert, die bereits registriert ist.
 App jetzt abmelden, damit sie in Zukunft keine Push-Benachrichtigungen mehr empfängt?"</string>
     <!--gcm: register messages infos-->
@@ -165,6 +166,7 @@ App jetzt abmelden, damit sie in Zukunft keine Push-Benachrichtigungen mehr empf
     <string name="prefcat_authentication">Authentifizierung</string>
     <string name="prefcat_about">Über</string>
     <string name="prefcat_details">Details</string>
+    <string name="prefcat_advanced">Erweitert</string>
     <string name="pref_info_status">Status</string>
     <!--preferences: account manager-->
     <string name="pref_account_title">Konten</string>

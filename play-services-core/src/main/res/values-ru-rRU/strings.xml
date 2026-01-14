@@ -63,13 +63,14 @@
     <string name="gcm_remove_registers_dialog_title">Удалить все регистрации?</string>
     <!-- %1$s is an app name, such as "YouTube"? -->
     <string name="gcm_unregister_confirm_title">Отменить регистрацию %1$s?</string>
-    <string name="gcm_remove_registers_dialog_message">"Это удалит все приложения, зарегистрированные для push-уведомлений одновременно
+    <string name="gcm_remove_registers_dialog_message">"Это одновременно отключит все зарегистрированные приложения от получения push уведомлений
 
-Вам придется открыть приложения, чтобы перерегистрироваться в облачной рассылке
+Для регистрации приложений вам потребуется новый securityToken и AndroidID. Проверьте статус регистрации устройства
 
-Некоторые приложения могут не иметь возможности зарегистрироваться снова после этого действия"</string>
+Некоторые приложения могут не зарегистрироваться повторно после этого действия. Возможно, вам потребуется очистить данные для этих приложений, прежде чем они смогут запросить повторную регистрацию"</string>
     <string name="gcm_unregister_confirm_message">"Некоторые приложения не автоматически перерегистрируются и/или не предоставляют возможность сделать это вручную. Эти приложения могут работать некорректно после отмены регистрации.
 Продолжить?"</string>
+    <string name="gcm_remove_registers_toast_message">Все приложения удалены из push уведомлений</string>
     <string name="gcm_unregister_after_deny_message">"Вы отказали приложению в регистрации для push-уведомлений, которое уже зарегистрировано.
 Хотите отменить регистрацию сейчас, чтобы оно не получало push-уведомлений в будущем?"</string>
     <!--gcm: register messages infos-->
@@ -164,6 +165,7 @@
     <string name="prefcat_authentication">Авторизация</string>
     <string name="prefcat_about">Об интеграции</string>
     <string name="prefcat_details">Детали</string>
+    <string name="prefcat_advanced">Дополнительно</string>
     <string name="pref_info_status">Статус</string>
     <!--preferences: account manager-->
     <string name="pref_account_title">Аккаунты</string>

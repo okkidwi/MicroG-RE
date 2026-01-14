@@ -61,13 +61,14 @@
     <string name="gcm_remove_registers_dialog_title">Видалити всі реєстрації?</string>
     <!-- %1$s is an app name, such as "YouTube"? -->
     <string name="gcm_unregister_confirm_title">Да се отпишете от %1$s?</string>
-    <string name="gcm_remove_registers_dialog_message">"Това ще изтрие всички приложения регистрирани за получаване на push уведомления веднага
+    <string name="gcm_remove_registers_dialog_message">"Това ще изтрие всички регистрирани приложения, които получават уведомления от Push в едно действие
 
-Трябва да отворите приложенията за повторна регистрация в облачните уведомления
+Вие ще имате нужда от нов securityToken и AndroidID за регистриране на приложения. Проверете статуса на регистрацията на устройството
 
-Някои приложения може да не успяват да се регистрират отново след това действие"</string>
+Некато приложения може да не могат да се регистрират отново след това действие. Можете да изчистите данните за тези приложения преди те да могат да поискат регистрация отново"</string>
     <string name="gcm_unregister_confirm_message">"Някои приложения не се регистрират автоматично и/или не предоставят опция за ръчна регистрация. Тези приложения може да не работят коректно след отмяна.
 Продължи?"</string>
+    <string name="gcm_remove_registers_toast_message">Всички приложения са изтрити от Push уведомления</string>
     <string name="gcm_unregister_after_deny_message">"Отказахте приложението да се регистрира за получаване на push уведомления, което вече е регистрирано.
 Искате ли да го отмените сега, така че да не получава push уведомления в бъдеще?"</string>
     <!--gcm: register messages infos-->
@@ -162,6 +163,7 @@
     <string name="prefcat_authentication">Авторизація</string>
     <string name="prefcat_about">Относно</string>
     <string name="prefcat_details">Деталі</string>
+    <string name="prefcat_advanced">Разширени</string>
     <string name="pref_info_status">Статус</string>
     <!--preferences: account manager-->
     <string name="pref_account_title">Акаунти</string>

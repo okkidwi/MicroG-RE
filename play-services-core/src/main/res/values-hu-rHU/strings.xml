@@ -63,14 +63,15 @@ Adatod nem veszted el"</string>
     <string name="gcm_remove_registers_dialog_title">Minden regisztráció törlése?</string>
     <!-- %1$s is an app name, such as "YouTube"? -->
     <string name="gcm_unregister_confirm_title">Leállít %1$s-t?</string>
-    <string name="gcm_remove_registers_dialog_message">"Ez egyszerre távolítja el az összes alkalmazást, amely felhőüzenetre regisztrált.
+    <string name="gcm_remove_registers_dialog_message">"Minden regisztrált alkalmazás egyidejűleg veszíti el a push értesítéseket
 
-Az alkalmazásokat újra regisztrálni kell nyitva tartva
+Ez után új securityToken és AndroidID szükséges az alkalmazások regisztrálásához. Ellenőrizd a eszköz regisztrálási állapotát
 
-Néhány alkalmazás nem fog tudni újra regisztrálni ezt az akciót követően"</string>
+Néhány alkalmazás nem fog tudni újbóli regisztrálódni. Ezeknek az alkalmazásoknak a adatait törölni kell, mielőtt újra regisztrálhatnák."</string>
     <string name="gcm_unregister_confirm_message">"Néhány alkalmazás nem regisztrálja magát automatikusan és/ vagy nem biztosít lehetőséget a kézi regisztrációra. Ezek az alkalmazások nem működhetnek megfelelően ez az akciót követően.
 Tovább?
 "</string>
+    <string name="gcm_remove_registers_toast_message">Minden alkalmazás vesztette el a push értesítéseket</string>
     <string name="gcm_unregister_after_deny_message">"Elutasított egy alkalmazást a felhőüzenetre regisztráláshoz, amely már regisztrálva van.
 Akarja most leregisztrálni, hogy ne kapjon felhőüzeneteket a jövőben?
 "</string>
@@ -166,6 +167,7 @@ Akarja most leregisztrálni, hogy ne kapjon felhőüzeneteket a jövőben?
     <string name="prefcat_authentication">Bejelentkezés</string>
     <string name="prefcat_about">Rólunk</string>
     <string name="prefcat_details">Részletek</string>
+    <string name="prefcat_advanced">Haladó</string>
     <string name="pref_info_status">Fiók</string>
     <!--preferences: account manager-->
     <string name="pref_account_title">Bejelentkezés egy új Google fiókba</string>

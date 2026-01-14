@@ -63,13 +63,14 @@ Verileriniz kaybolmayacaktır"</string>
     <string name="gcm_remove_registers_dialog_title">Tüm kaydı kaldırılsın mı?</string>
     <!-- %1$s is an app name, such as "YouTube"? -->
     <string name="gcm_unregister_confirm_title">%1$s\'yi kaydetmek istiyor musunuz?</string>
-    <string name="gcm_remove_registers_dialog_message">"Bu, bir kez tüm push bildirimleri için kayıtlı uygulamaları kaldırır
+    <string name="gcm_remove_registers_dialog_message">"Bu işlem tüm kaydolmuş uygulamaları birden kez bildirimleri almakten çıkarır
 
-Bulut mesajlaşması için yeniden kayıt etmek için uygulamaları açmanız gerekir
+Bu işlemden sonra, tüm uygulamaların yeni bir securityToken ve AndroidID'ye ihtiyaç olacak olabilir. Uygulamaların kaydolma durumunu kontrol et
 
-Bazı uygulamalar bu eylemi sonra tekrar kayıt olamayabilir"</string>
+Bazı uygulamalar bu işlemden sonra tekrar kaydolamaz olabilir. Bu uygulamaların verilerini temizlemek için gerekebilir"</string>
     <string name="gcm_unregister_confirm_message">"Bazı uygulamalar otomatik olarak yeniden kayıt olmaz ve/veya bu işlemi manuel olarak yapma seçeneği sunmaz. Bu uygulamalar unregistering sonra düzgün çalışmayabilir.
 Devam et?"</string>
+    <string name="gcm_remove_registers_toast_message">Tüm uygulamalar bildirimden çıkarılmış</string>
     <string name="gcm_unregister_after_deny_message">"Push bildirimleri için kayıt olmak istediğiniz bir uygulamaya izin vermediniz.
  Gelecekte push mesajları almaması için şimdi unregister etmek istiyor musunuz?"</string>
     <!--gcm: register messages infos-->
@@ -164,6 +165,7 @@ Devam et?"</string>
     <string name="prefcat_authentication">Yetkilendirme</string>
     <string name="prefcat_about">Hakkında</string>
     <string name="prefcat_details">Detaylar</string>
+    <string name="prefcat_advanced">Gelişmiş</string>
     <string name="pref_info_status">Durum</string>
     <!--preferences: account manager-->
     <string name="pref_account_title">Hesaplar</string>

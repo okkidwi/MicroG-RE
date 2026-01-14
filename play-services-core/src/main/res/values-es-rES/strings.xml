@@ -63,13 +63,14 @@ Tus datos no se perderán"</string>
     <string name="gcm_remove_registers_dialog_title">¿Eliminar todos los registros?</string>
     <!-- %1$s is an app name, such as "YouTube"? -->
     <string name="gcm_unregister_confirm_title">¿Cancelar el registro de %1$s?</string>
-    <string name="gcm_remove_registers_dialog_message">"Esto eliminará todas las aplicaciones registradas para notificaciones push a la vez
+    <string name="gcm_remove_registers_dialog_message">"Esto eliminará todas las apps registradas para recibir notificaciones push de inmediato
 
-Deberás abrir las aplicaciones para volver a registrarse en la mensajería en la nube
+Necesitarás un nuevo securityToken y AndroidID para registrar las apps. Comprueba el estado de registro del dispositivo
 
-Es posible que algunas aplicaciones no puedan volver a registrarse después de esta acción"</string>
+Es posible que algunas apps no puedan volver a registrarse después de esta acción. Es posible que tengas que borrar los datos de estas apps antes de que puedan solicitar el registro de nuevo"</string>
     <string name="gcm_unregister_confirm_message">"Algunas aplicaciones no se vuelven a registrar automáticamente y/o no ofrecen una opción para hacerlo manualmente. Es posible que estas aplicaciones no funcionen correctamente después de cancelar el registro.
 ¿Continuar?"</string>
+    <string name="gcm_remove_registers_toast_message">Se han eliminado todas las apps de las notificaciones push</string>
     <string name="gcm_unregister_after_deny_message">"Has denegado una aplicación para registrar notificaciones push que ya está registrada.
 ¿Quieres cancelar el registro ahora para que no reciba mensajes push en el futuro?"</string>
     <!--gcm: register messages infos-->
@@ -164,6 +165,7 @@ Es posible que algunas aplicaciones no puedan volver a registrarse después de e
     <string name="prefcat_authentication">Autenticación</string>
     <string name="prefcat_about">Acerca de Morphe</string>
     <string name="prefcat_details">Detalles</string>
+    <string name="prefcat_advanced">Avanzado</string>
     <string name="pref_info_status">Estado</string>
     <!--preferences: account manager-->
     <string name="pref_account_title">Cuentas</string>

@@ -63,12 +63,13 @@ Tietosi ei menetä"</string>
     <string name="gcm_remove_registers_dialog_title">Haluatko poistaa kaikki rekisteröinnit?</string>
     <!-- %1$s is an app name, such as "YouTube"? -->
     <string name="gcm_unregister_confirm_title">Poistaa %1$s?</string>
-    <string name="gcm_remove_registers_dialog_message">"Tämä poistaa kaikki sovellukset, jotka on rekisteröity push-ilmoituksia vastaanottamista varten
+    <string name="gcm_remove_registers_dialog_message">"Tämä poistaa kaikki rekisteröidyt sovellukset samalla kerralla
 
-Sinun on avaamalla sovelluksia uudelleen rekisteröityäksesi cloud messagingiin
+Sinun tarvitsee uusi securityToken ja AndroidID rekisteröidäksesi sovelluksia. Tarkista laitteiden rekisteröinnin tilanne
 
-Jotkut sovellukset eivät ehdi rekisteröityä uudelleen tässä toimenpiteessä"</string>
+Joitain sovelluksia ei voi rekisteröidä uudelleen tämän toiminnon jälkeen. Sinun täytyy tyhjentää näiden sovellusten tiedot, jotta ne voivat pyytää rekisteröinnin uudelleen"</string>
     <string name="gcm_unregister_confirm_message">"Jotkut sovellukset eivät rekisteröidy automaattisesti ja/tai ei tarjoa manuaalista rekisteröinnin vaihtoehtoa. Nämä sovellukset saattaa olla toimimattomia poistettuaan rekisteröinnin"</string>
+    <string name="gcm_remove_registers_toast_message">Kaikki sovellukset poistettu push-ilmoituksista</string>
     <string name="gcm_unregister_after_deny_message">"Sovellus, jota on estetty rekisteröityä push-ilmoituksia vastaanottamista, on jo rekisteröity.
 Haluatko poistaa sen nyt, jotta se ei saa push-ilmoituksia tulevaisuudessa?"</string>
     <!--gcm: register messages infos-->
@@ -163,6 +164,7 @@ Haluatko poistaa sen nyt, jotta se ei saa push-ilmoituksia tulevaisuudessa?"</st
     <string name="prefcat_authentication">Tunnistautuminen</string>
     <string name="prefcat_about">Tietoja</string>
     <string name="prefcat_details">Tiedot</string>
+    <string name="prefcat_advanced">Avancollinen</string>
     <string name="pref_info_status">Tila</string>
     <!--preferences: account manager-->
     <string name="pref_account_title">Tilit</string>

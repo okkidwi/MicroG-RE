@@ -63,12 +63,13 @@ Datele tale nu vor fi pierdute"</string>
     <string name="gcm_remove_registers_dialog_title">Eliminați toate înregistrările?</string>
     <!-- %1$s is an app name, such as "YouTube"? -->
     <string name="gcm_unregister_confirm_title">Dezinscriere %1$s?</string>
-    <string name="gcm_remove_registers_dialog_message">"Aceasta va șterge toate aplicațiile înregistrate pentru notificări instantanee odată
+    <string name="gcm_remove_registers_dialog_message">"Acestă acțiune va elimina toate aplicațiile înregistrate care primesc notificări push instantaneu
 
-Vei trebui să deschizi aplicațiile pentru a te înregistra din nou la mesagerie în cloud
+Vă vei neede un nou securityToken și AndroidID pentru a înregistra aplicațiile. Verificați starea înregistrării dispozitivului
 
-Unele aplicații pot fi incapabile să se înregistreze din nou după această acțiune"</string>
+Unele aplicații pot nu mai putea fi înregistrate din nou după această acțiune. Vă veți putea neede să ștergeți datele pentru aceste aplicații înainte ca ele să poată solicita înregistrarea din nou"</string>
     <string name="gcm_unregister_confirm_message">"Unele aplicații nu se înregistrează automat și/or nu oferă o opțiune pentru a face acest lucru manual. Aceste aplicații pot funcționa incorect după dezinregistrarea."</string>
+    <string name="gcm_remove_registers_toast_message">Toate aplicațiile eliminate din notificări push</string>
     <string name="gcm_unregister_after_deny_message">"Ai refuzat unei aplicații să se înregistreze pentru notificări instantanee care este deja înregistrată.
 Vrei să o dezinregistrezi acum așa că nu primește mesaje instantanee în viitor?"</string>
     <!--gcm: register messages infos-->
@@ -163,6 +164,7 @@ Vrei să o dezinregistrezi acum așa că nu primește mesaje instantanee în vii
     <string name="prefcat_authentication">Autentificare</string>
     <string name="prefcat_about">Despre</string>
     <string name="prefcat_details">Detalii</string>
+    <string name="prefcat_advanced">Avansat</string>
     <string name="pref_info_status">Conturi</string>
     <!--preferences: account manager-->
     <string name="pref_account_title">Conectați-vă la un cont Google nou</string>

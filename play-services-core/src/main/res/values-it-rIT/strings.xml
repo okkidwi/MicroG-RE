@@ -61,13 +61,14 @@ I tuoi dati non andranno persi"</string>
     <string name="gcm_remove_registers_dialog_title">Rimuovi tutte le registrazioni?</string>
     <!-- %1$s is an app name, such as "YouTube"? -->
     <string name="gcm_unregister_confirm_title">Disiscriviti da %1$s?</string>
-    <string name="gcm_remove_registers_dialog_message">"Questo rimuoverà tutte le applicazioni registrate per le notifiche push contemporaneamente
+    <string name="gcm_remove_registers_dialog_message">"Questo rimuoverà tutte le app registrate dal ricevere notifiche push contemporaneamente
 
-Dovrai aprire le applicazioni per reregistrarti su cloud messaging
+Ti servirà un nuovo securityToken e AndroidID per registrare le app. Controlla lo stato di registrazione del dispositivo
 
-Alcune app potrebbero non essere in grado di reregistrarsi dopo questa azione"</string>
+Alcune app potrebbero non essere in grado di registrarsi nuovamente dopo questa azione. Potresti dover cancellare i dati di queste app prima che possano richiedere nuovamente la registrazione"</string>
     <string name="gcm_unregister_confirm_message">"Alcune app non si reregistrano automaticamente e/o non forniscono un'opzione per farlo manualmente. Queste app potrebbero non funzionare correttamente dopo la disiscrizione.
 Continuare?"</string>
+    <string name="gcm_remove_registers_toast_message">Tutte le app rimosse dalle notifiche push</string>
     <string name="gcm_unregister_after_deny_message">"Hai negato ad un'app di registrarsi per le notifiche push che è già registrata.
 Vuoi disiscriverla ora in modo che non riceva messaggi push in futuro?"</string>
     <!--gcm: register messages infos-->
@@ -162,6 +163,7 @@ Vuoi disiscriverla ora in modo che non riceva messaggi push in futuro?"</string>
     <string name="prefcat_authentication">Autenticazione</string>
     <string name="prefcat_about">Informazioni</string>
     <string name="prefcat_details">Dettagli</string>
+    <string name="prefcat_advanced">Avanzato</string>
     <string name="pref_info_status">Stato</string>
     <!--preferences: account manager-->
     <string name="pref_account_title">Account</string>

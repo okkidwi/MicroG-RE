@@ -63,13 +63,12 @@ Your data will not be lost"</string>
     <string name="gcm_remove_registers_dialog_title">Scrios gach reáchtanna?</string>
     <!-- %1$s is an app name, such as "YouTube"? -->
     <string name="gcm_unregister_confirm_title">Díreach %1$s?</string>
-    <string name="gcm_remove_registers_dialog_message">"This will remove all applications registered for push notifications at once
+    <string name="gcm_remove_registers_dialog_message">"This will remove all registered apps from receiving push notifications at once.
 
-You will need to open the applications to re-register on cloud messaging
-
-Some apps may be unable to register again after this action"</string>
+You will need to clear data for these apps before they can request registration again."</string>
     <string name="gcm_unregister_confirm_message">"Some apps do not automatically re-register and/or do not provide an option to do so manually. These apps might not work correctly after unregistering.
 Continue?"</string>
+    <string name="gcm_remove_registers_toast_message">All apps removed from push notification</string>
     <string name="gcm_unregister_after_deny_message">"You denied an app to register for push notifications that is already registered.
 Do you want to unregister it now so it does not receive push messages in the future?"</string>
     <!--gcm: register messages infos-->
@@ -164,6 +163,7 @@ Do you want to unregister it now so it does not receive push messages in the fut
     <string name="prefcat_authentication">Athdhéanamh</string>
     <string name="prefcat_about">Maidir</string>
     <string name="prefcat_details">Sonraí</string>
+    <string name="prefcat_advanced">Ardleibhéil</string>
     <string name="pref_info_status">Stádas</string>
     <!--preferences: account manager-->
     <string name="pref_account_title">Contaetha</string>

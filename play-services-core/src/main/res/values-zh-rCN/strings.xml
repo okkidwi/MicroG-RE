@@ -63,13 +63,14 @@
     <string name="gcm_remove_registers_dialog_title">要移除所有注册吗？</string>
     <!-- %1$s is an app name, such as "YouTube"? -->
     <string name="gcm_unregister_confirm_title">取消注册 %1$s？</string>
-    <string name="gcm_remove_registers_dialog_message">"这将一次性移除所有已注册的推送通知应用
+    <string name="gcm_remove_registers_dialog_message">"这将一次性删除所有注册应用程序的推送通知
 
-您需要打开应用以重新注册到云消息
+您需要一个新的securityToken和AndroidID来注册应用程序。检查设备注册状态
 
-某些应用可能无法再次注册"</string>
+一些应用程序可能无法再次注册。在它们能够请求重新注册之前，您可能需要清除这些应用程序的数据。"</string>
     <string name="gcm_unregister_confirm_message">"某些应用不支持自动重新注册或无法手动执行。这些应用可能在取消注册后无法正常工作。
 继续吗？"</string>
+    <string name="gcm_remove_registers_toast_message">所有应用程序已从推送通知中删除</string>
     <string name="gcm_unregister_after_deny_message">"您拒绝了一个已注册的应用接收推送通知。
 您要现在取消注册它，以便它将来不再接收推送消息吗？"</string>
     <!--gcm: register messages infos-->
@@ -164,6 +165,7 @@
     <string name="prefcat_authentication">身份验证</string>
     <string name="prefcat_about">关于</string>
     <string name="prefcat_details">详情</string>
+    <string name="prefcat_advanced">高级</string>
     <string name="pref_info_status">状态</string>
     <!--preferences: account manager-->
     <string name="pref_account_title">帐户</string>

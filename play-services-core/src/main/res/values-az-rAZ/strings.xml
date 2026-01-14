@@ -63,12 +63,13 @@ Sizin verilənlərin itirilməyəcəyini unutmayın"</string>
     <string name="gcm_remove_registers_dialog_title">Bütün qeydiyyatlar silinilsin mi?</string>
     <!-- %1$s is an app name, such as "YouTube"? -->
     <string name="gcm_unregister_confirm_title">%1$s-i ləğv etmək istəyirsiniz?</string>
-    <string name="gcm_remove_registers_dialog_message">"Bu, bir neçə tətbiq üçün bir kəslə push xidmətlərindən çıxış edəcək
+    <string name="gcm_remove_registers_dialog_message">"Bu, bir kereliklə bütün qeydiyyatlı əlavələrdən xəbərləşmə yolları alınacaq
 
-Tətbiqləri yenidən nümayəndəlik üçün açmaq lazımdır
+Yenidən qeydiyyat üçün yeni securityToken və AndroidID lazımdır. Cihazın qeydiyyat statusunu yoxlayın
 
-Bazı tətbiqlər yenidən qeydiyyatdan keçməyə imkan vermir"</string>
+Bəzi əlavələr bu əməliyyatdan sonra yenidən qeydiyyat ola bilmə məcburiyyətində qalacaqlar. Bu əlavələrin yenidən qeydiyyat istəyi üçün onları əvvəlcədən təmizləyə bilərsiniz"</string>
     <string name="gcm_unregister_confirm_message">"Bazı tətbiqlər avtomatik yenidən qeydiyyatdan keçmirlər və ya bu üçün əlavə seçənə imkan verən tətbiqlər olmur. Bu tətbiqlər bu əməliyyatdan sonra düzgün işləyə bilməz."</string>
+    <string name="gcm_remove_registers_toast_message">Hər bir əlavə xəbərləşmə yolları alınmışdır</string>
     <string name="gcm_unregister_after_deny_message">"Tətbiq push xidmətlərindən qeydiyyatdan keçmək üçün icazə vermədi, lakin artıq qeydiyyatdan keçib. Bu tətbiqdən sonrakı push mesajları almaması üçün onu hələlik qeydiyyatdan çıxarmaq istəyirsiniz?"</string>
     <!--gcm: register messages infos-->
     <string name="gcm_no_message_yet">Hələ də mesaj alınıb</string>
@@ -162,6 +163,7 @@ Bazı tətbiqlər yenidən qeydiyyatdan keçməyə imkan vermir"</string>
     <string name="prefcat_authentication">Təhlükəsizlik</string>
     <string name="prefcat_about">Haqqında</string>
     <string name="prefcat_details">Detallar</string>
+    <string name="prefcat_advanced">Advanced</string>
     <string name="pref_info_status">Status</string>
     <!--preferences: account manager-->
     <string name="pref_account_title">Hesablar</string>

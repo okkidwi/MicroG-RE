@@ -63,13 +63,14 @@ Vaši podaci neće biti izgubljeni"</string>
     <string name="gcm_remove_registers_dialog_title">Ukloni sve registracije?</string>
     <!-- %1$s is an app name, such as "YouTube"? -->
     <string name="gcm_unregister_confirm_title">Ukloniti %1$s?</string>
-    <string name="gcm_remove_registers_dialog_message">"Ovo će ukloniti sve aplikacije registrirane za primanje obaveštenja istovremeno
+    <string name="gcm_remove_registers_dialog_message">"Ovo će ukloniti sve registrovanne aplikacije sa primanja obavještenja u jednom trenu
 
-Morat ćete otvoriti aplikacije da bi se ponovo registrirali na cloud messaging
+Potrebat će vam novi securityToken i AndroidID da biste registrovali aplikacije. Provjerite status registracije uređaja
 
-Neke aplikacije možda neće moći da se ponovo registruju nakon ove akcije"</string>
+Neke aplikacije možda neće moći ponovo da se registruju nakon ovu akciju. Morat ćete možda očistiti podatke za ove aplikacije prije nego što mogu da zahtijevaju ponovo registraciju"</string>
     <string name="gcm_unregister_confirm_message">"Nekoliko aplikacija ne automatski se ponovo registruje i/ili ne nude opciju za to ručno. Ove aplikacije možda neće raditi ispravno nakon uklanjanja.
 Da li želite nastaviti?"</string>
+    <string name="gcm_remove_registers_toast_message">Sve aplikacije uklonjene sa obavještenja</string>
     <string name="gcm_unregister_after_deny_message">"Odbijali ste aplikaciji da se registruje za primanje obaveštenja koja je već registrirana.
 Da li želite da je uklonite sada da ne prima obaveštenja u budućnosti?"</string>
     <!--gcm: register messages infos-->
@@ -164,6 +165,7 @@ Da li želite da je uklonite sada da ne prima obaveštenja u budućnosti?"</stri
     <string name="prefcat_authentication">Autentifikacija</string>
     <string name="prefcat_about">O programu</string>
     <string name="prefcat_details">Detalji</string>
+    <string name="prefcat_advanced">Napredni</string>
     <string name="pref_info_status">Status</string>
     <!--preferences: account manager-->
     <string name="pref_account_title">Nalozi</string>

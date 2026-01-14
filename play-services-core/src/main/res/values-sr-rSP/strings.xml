@@ -59,13 +59,14 @@ Vaši podaci neće biti izgubljeni"</string>
     <string name="gcm_remove_registers_dialog_title">Уклонити све регистрације?</string>
     <!-- %1$s is an app name, such as "YouTube"? -->
     <string name="gcm_unregister_confirm_title">Отписати се од %1$s?</string>
-    <string name="gcm_remove_registers_dialog_message">"Ovo će ukloniti sve aplikacije registrovane za obaveštenja na jednom trenu
+    <string name="gcm_remove_registers_dialog_message">"Ovo će ukloniti sve registrovanе апликације са пријема пуш нотификацијаје у исто вријеме
 
-Morat ćete da otvorite aplikacije da bi se ponovo registrovali na obaveštavanju u oblaku
+Нећете требати нови securityToken и AndroidID за регистрацију апликација. Проверите статус регистрације уређаја
 
-Neke aplikacije možda neće moći da se ponovo registruju nakon ove akcije"</string>
+Неке апликације можда неће моћи поново да се региструју након ове акције. Можете морати да очистите податке за ове апликације пре него што могу да затраже регистрацију поново"</string>
     <string name="gcm_unregister_confirm_message">"Neke aplikacije neće automatski se ponovo registrovati i/ili neće pružiti opciju za ručno registrovanje. Ove aplikacije možda neće dobro funkcionisati nakon de-registracije.
 Da li želite da nastavite?"</string>
+    <string name="gcm_remove_registers_toast_message">Све апликације уклоњене са пуш нотификацијаје</string>
     <string name="gcm_unregister_after_deny_message">"Odbili ste da dozvolite aplikaciji da se registruje za obaveštenja, a ona je već registrovana.
 Da li želite da je sada de-registrujete da ne dobija obaveštenja u budućnosti?"</string>
     <!--gcm: register messages infos-->
@@ -160,6 +161,7 @@ Da li želite da je sada de-registrujete da ne dobija obaveštenja u budućnosti
     <string name="prefcat_authentication">Аутентификација</string>
     <string name="prefcat_about">О програму</string>
     <string name="prefcat_details">Детаљи</string>
+    <string name="prefcat_advanced">Адванцед</string>
     <string name="pref_info_status">Статус</string>
     <!--preferences: account manager-->
     <string name="pref_account_title">Налози</string>

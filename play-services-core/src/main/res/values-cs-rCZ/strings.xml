@@ -63,13 +63,14 @@ Vaše data nebudou ztracena"</string>
     <string name="gcm_remove_registers_dialog_title">Odstranit všechny registrace?</string>
     <!-- %1$s is an app name, such as "YouTube"? -->
     <string name="gcm_unregister_confirm_title">Odhlásit %1$s?</string>
-    <string name="gcm_remove_registers_dialog_message">"Tím odstraníte všechny aplikace registrované pro notifikace najednou
+    <string name="gcm_remove_registers_dialog_message">"Toto odstraní všechny registrované aplikace z obdržení notifikací v jednom kroku
 
-Musíte otevřít aplikace, abyste je znovu zaregistrovaly v cloud messagingu
+Potřebujete nový securityToken a AndroidID pro registraci aplikací. Zkontrolujte stav registrace zařízení
 
-Některé aplikace nemohou být znovu zaregistrovány po této akci"</string>
+Některé aplikace nemohou být znovu registrované po této akci. Může být třeba vymazat data pro tyto aplikace před jejich novou registrací."</string>
     <string name="gcm_unregister_confirm_message">"Některé aplikace automaticky nezačnou a/nebo nenabízejí možnost ručního zaregistrování. Tyto aplikace mohou po odhlášení nepracovat správně.
 Pokračovat?"</string>
+    <string name="gcm_remove_registers_toast_message">Všechny aplikace odstraněny z notifikací</string>
     <string name="gcm_unregister_after_deny_message">"Odmítli jste aplikaci pro registraci pro notifikace, která je již registrovaná.
 Chcete ji nyní odhlásit, abychom ji v budoucnu neposílali notifikace?"</string>
     <!--gcm: register messages infos-->
@@ -164,6 +165,7 @@ Chcete ji nyní odhlásit, abychom ji v budoucnu neposílali notifikace?"</strin
     <string name="prefcat_authentication">Ověřování</string>
     <string name="prefcat_about">O aplikaci</string>
     <string name="prefcat_details">Detaily</string>
+    <string name="prefcat_advanced">Pokročilé</string>
     <string name="pref_info_status">Stav</string>
     <!--preferences: account manager-->
     <string name="pref_account_title">Účty</string>

@@ -63,13 +63,14 @@ Google アカウントに接続しましょう。<b>ログイン</b> ボタン�
     <string name="gcm_remove_registers_dialog_title">すべての登録を解除しますか？</string>
     <!-- %1$s is an app name, such as "YouTube"? -->
     <string name="gcm_unregister_confirm_title">%1$s を登録解除しますか？</string>
-    <string name="gcm_remove_registers_dialog_message">"一括でプッシュ通知登録済みのアプリをすべて登録解除します
+    <string name="gcm_remove_registers_dialog_message">"この操作は一括で全ての登録済みアプリをプッシュ通知登録から削除します
 
-Cloud Messaging に再登録するにはそのアプリを開く必要があります
+新しい securityToken と AndroidID が必要になります。デバイス登録のステータスを確認してください
 
-一部のアプリでは、この操作後に再登録できない場合があります"</string>
+一部のアプリでは、この操作の後に再登録できなくなる場合があります。このようなアプリが再び登録をリクエストできるようにするには、そのアプリのデータを消去する必要があります"</string>
     <string name="gcm_unregister_confirm_message">"一部のアプリでは、自動的に再登録されない場合があり、さらに手動で再登録するオプションすらない場合があります。このようなアプリでは、登録解除後に再登録できず、正しく動作しなくなる可能性があります。
 続行しますか？"</string>
+    <string name="gcm_remove_registers_toast_message">すべてのアプリをプッシュ通知登録から削除しました</string>
     <string name="gcm_unregister_after_deny_message">"既に登録済みのアプリのプッシュ通知登録を拒否しました。今後プッシュ通知を受け取らないよう、今すぐ登録解除しますか？"</string>
     <!--gcm: register messages infos-->
     <string name="gcm_no_message_yet">まだメッセージを受信していません</string>
@@ -163,6 +164,7 @@ Cloud Messaging に再登録するにはそのアプリを開く必要があり�
     <string name="prefcat_authentication">認証</string>
     <string name="prefcat_about">このアプリについて</string>
     <string name="prefcat_details">詳細</string>
+    <string name="prefcat_advanced">詳細設定</string>
     <string name="pref_info_status">ステータス</string>
     <!--preferences: account manager-->
     <string name="pref_account_title">アカウント</string>

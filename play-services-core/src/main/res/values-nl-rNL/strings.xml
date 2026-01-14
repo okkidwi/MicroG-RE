@@ -57,8 +57,13 @@ Dit kan enkele minuten duren"</string>
     <string name="gcm_remove_registers_dialog_title">Systeem: %s</string>
     <!-- %1$s is an app name, such as "YouTube"? -->
     <string name="gcm_unregister_confirm_title">Afmelden van %1$s?</string>
-    <string name="gcm_remove_registers_dialog_message">"Trust Google voor app-permissies"</string>
+    <string name="gcm_remove_registers_dialog_message">"Dit zal alle geregistreerde apps verwijderen van het ontvangen van pushmeldingen op eenmalige basis
+
+Je zal een nieuw securityToken en AndroidID nodig hebben om apps te registreren. Controleer de registratie status van het apparaat
+
+Sommige apps kunnen mogelijk niet meer geregistreerd worden na deze actie. Je moet mogelijk de gegevens van deze apps wissen voordat ze kunnen registreren."</string>
     <string name="gcm_unregister_confirm_message">"Toestaan"</string>
+    <string name="gcm_remove_registers_toast_message">Alle apps verwijderd van pushmeldingen</string>
     <string name="gcm_unregister_after_deny_message">"Apps mogen accounts vinden"</string>
     <!--gcm: register messages infos-->
     <string name="gcm_no_message_yet">Nog geen berichten ontvangen</string>
@@ -152,6 +157,7 @@ Dit kan enkele minuten duren"</string>
     <string name="prefcat_authentication">Toestaan</string>
     <string name="prefcat_about">Over</string>
     <string name="prefcat_details">Cloud messaging is een provider voor pushmeldingen die wordt gebruikt voor gepatchte apps. Om deze te gebruiken, moet u device-registratie inschakelen</string>
+    <string name="prefcat_advanced">Geavanceerd</string>
     <string name="pref_info_status">Bevestig nieuwe apps</string>
     <!--preferences: account manager-->
     <string name="pref_account_title">Verwijder alle geregistreerde apps</string>

@@ -55,12 +55,13 @@
     <string name="gcm_remove_registers_dialog_title">Видалити всі реєстрації?</string>
     <!-- %1$s is an app name, such as "YouTube"? -->
     <string name="gcm_unregister_confirm_title">Зняти реєстрацію %1$s?</string>
-    <string name="gcm_remove_registers_dialog_message">"Це видалить всі застосунки, зареєстровані для push-повідомлень одночасно
+    <string name="gcm_remove_registers_dialog_message">"Це одночасно відключить усі зареєстровані програми від отримання push повідомлень
 
-Вам потрібно відкрити застосунки, щоб перереєструватися в cloud messaging
+Для реєстрації додатків вам знадобиться новий securityToken та AndroidID. Перевірте статус реєстрації пристрою
 
-Деякі застосунки можуть бути не в змозі перереєструватися після цієї дії"</string>
+Деякі програми можуть не зареєструватися повторно після цієї дії. Можливо, вам потрібно буде очистити дані для цих програм, перш ніж вони зможуть запросити повторну реєстрацію"</string>
     <string name="gcm_unregister_confirm_message">"Деякі застосунки не автоматично перереєструються та/або не надають опції для річного перереєстрування. Ці застосунки можуть не працювати правильно після відключення."</string>
+    <string name="gcm_remove_registers_toast_message">Усі додатки видалені з push повідомлень</string>
     <string name="gcm_unregister_after_deny_message">"Ви відмовили застосунку в реєстрації для push-повідомлень, який вже зареєстрований.
 Чи хочете видалити його зараз, щоб він не отримував push-повідомлень у майбутньому?"</string>
     <!--gcm: register messages infos-->
@@ -155,6 +156,7 @@
     <string name="prefcat_authentication">Авторизація</string>
     <string name="prefcat_about">Про нас</string>
     <string name="prefcat_details">Деталі</string>
+    <string name="prefcat_advanced">Розширені</string>
     <string name="pref_info_status">Облікові записи</string>
     <!--preferences: account manager-->
     <string name="pref_account_title">Ввійти в новий обліковий запис Google</string>

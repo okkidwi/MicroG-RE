@@ -61,13 +61,14 @@
     <string name="gcm_remove_registers_dialog_title">הסר את כל הרישומים?</string>
     <!-- %1$s is an app name, such as "YouTube"? -->
     <string name="gcm_unregister_confirm_title">להסיר את %1$s?</string>
-    <string name="gcm_remove_registers_dialog_message">"זוהי תהליך של הסרת כל האפליקציות רשומות עבור הודעות ענן אחת
+    <string name="gcm_remove_registers_dialog_message">"זוהי תהליך שימור כל האפליקציות הרשומות מriceiving הודעות push אחת ומיד
 
-עליך לפתוח את האפליקציות כדי לרשום מחדש על הודעת ענן
+אנא צור טוקן ביטחון חדש וID אנדרואיד כדי לרשום אפליקציות. בדוק את סטטוס הרישום של המכשיר
 
-אפליקציות מסוימות עשויות שלא להיות מסוגלות לרשום מחדש לאחר פעולה זו"</string>
+אף על פי שיש אפליקציות שמאיימות שלא יוכלו לרשום שוב לאחר פעולה זו. ייתכן שיהיה צורך לנקות את הנתונים של אפליקציות אלה לפני שיתרשמו שוב"</string>
     <string name="gcm_unregister_confirm_message">"חלק מהאפליקציות לא מתרשמות אוטומטית ו/או לא סופק אופציה לרשום מחדש באופן ידני. האפליקציות האלה עשויות שלא לעבוד כראוי לאחר הסרת הרישום.
 להמשך?"</string>
+    <string name="gcm_remove_registers_toast_message">כל האפליקציות הוסרו מriceiving הודעות push</string>
     <string name="gcm_unregister_after_deny_message">"שלחתה אפליקציה להירשם להודעות ענן שברגע זה רשומה.
 האם ברצונך להסיר אותה עכשיו כך שלא תקבל הודעות ענן בעתיד?"</string>
     <!--gcm: register messages infos-->
@@ -162,6 +163,7 @@
     <string name="prefcat_authentication">אימות</string>
     <string name="prefcat_about">אודות</string>
     <string name="prefcat_details">פרטים</string>
+    <string name="prefcat_advanced">מתקדם</string>
     <string name="pref_info_status">חשבונות</string>
     <!--preferences: account manager-->
     <string name="pref_account_title">התחבר לחשבון חדש של גוגל</string>
